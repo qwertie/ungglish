@@ -1,0 +1,177 @@
+Course outline
+--------------
+
+A picture-based course like Rosetta stone that can be taught to anyone regardless of mother toungue.
+
+### Lesson 1: ###
+
+- New sounds: u, a, o, i, voiced th, syllabic r, b, d, h, k, l, m, n, p, s, t, v
+- Words: the, pursun, bi, man, kid, hikid, shikid, and, hava, not, bol
+- Showa eech uv pursun, man, boy, coeman, coeboy, bol
+- ex-ampuls: pursun / not pursun
+- Fill in the blank / writing exercises
+~~~
+The pursun bi man.
+The pursun bi kid. (boy)
+The kid bi hikid.
+The kid bi shikid.
+The kid bi not hikid.
+The kid bi not shikid.
+The pursun bi not kid.
+The pursun bi not man.
+The pursun bi kid and hikid.
+The pursun bi kid and not man.
+The pursun bi not hikid and not man.
+The man hava kid.
+The man hava bol.
+The man hava kid and bol.
+The hikid hava bol.
+The shikid hava bol.
+The kid and man hava bol. (valid for two balls, or one held jointly)
+The bol bi not pursun.
+The bol bi not man and not kid.
+The persun bi not man and not kid.
+~~~
+
+### Lesson 2: ###
+
+- Words: coe- [TODO: change to op], doen, famli, wotur, big, runa
+- Introduce plurals: pursuns, boys, coeboys, mans, bols
+~~~
+The pursun bi coeman.
+The pursun bi coeboy.
+The kid bi not coeboy.
+The kid doen bi man.
+The boy hava bol.
+The coeboy hava bol.
+The boy doen hava bol.
+The boys hava bols.
+The boy hava big bol.
+The coeboy hava bol.
+The coeboy doen hava big bol.
+The pursun runa.
+The pursun doen runa.
+The boy runa.
+The boy doen runa.
+The boy runa and hava bol.
+The boy hava wotur.
+The coeboy hava wotur.
+The boy hava wotur, and the coeboy doen hava wotur.
+The boy hava wotur and bol.
+The famli hava boy and coeboy and man and coeman.
+The boy hava famli, and the famli hava boy.
+The boys hava famli, and the famli hava boys.
+The famli hava boy and coeboy.
+The famli hava man and coeman.
+The famli doen hava man.
+~~~
+
+### Lesson 3: ###
+
+- Words: but, this, that, olso, book, reeda
+
+~~~
+This bi man.
+*The bi man.
+This bi book. This bi book olso.
+This pursun bi kid, and that pursun bi man.
+This pursun bi man, and that pursun bi kid.
+That pursun bi kid, and this pursun bi man.
+That pursun bi man, and this pursun bi kid.
+This boy hava bol and wotur.
+This kid hava bol and wotur.
+This kid hava bol. The kid olso hava wotur.
+The kid hava bol. The kid olso hava wotur.
+The kid hava bol. The kid hava wotur olso.
+The kid hava bol. Olso, the kid hava wotur.
+The boy hava bol, but the coeboy doen hava bol.
+The boy hava bol, but the boy doen hava wotur.
+The boy bi kid, but the man bi not kid.
+The boy hava bol, but the bol doen hava kid.
+The boy runa, but the man doen runa.
+The man hava book.
+The coeman reeda book.
+The boy hava book.
+The boy hava book and bol.
+The coeboy reeda book.
+The man hava book, and the man reeda the book.
+The man hava book, but the man doen reeda the book.
+The boy hava book, but the coeboy reeda the book.
+The man reeda but the boy doen reeda.
+The man hava book. The coeman reeda this.
+This boy hava bol but that boy doen hava bol.
+This boy hava bols but that boy doen hava bols.
+The boy reeda, but doen hava book.
+The boy reeda, but doen hava bol.
+~~~
+
+### Lesson 4: ###
+
+- Words: wun, twen, tur, cana, in, hoem, scool, box, ee.
+
+~~~
+wun book
+twen books
+tur books
+wun bol
+wun bol and twen books.
+wun book and twen bols.
+bol in box.
+box in box.
+Twen bols bi in this box.
+Tur bols bi in boxes.
+Wotur bi in this box.
+Bol bi in this box.
+In this box bi bol.
+This boy bi in box.
+This boy bi in school.
+This boy reeda book in scool.
+This boy reeda in scool.
+This boy bi in hoem.
+This man hava book. Ee reeda the book.
+The coeman reeda wun book, but ee hava twen books.
+The boy reeda wun book, but ee hava tur books.
+This famli hava twen kids.
+This famli hava tur kids: wun boy and twen coeboys.
+This famli bi in scool.
+This famli hava hoem. The famli bi in the hoem.
+This pursun bi in hoem olso.
+~~~
+
+### Lesson 5: ###
+
+- Words: Hello, I, me, yoo, mie, naem, nau
+
+~~~
+Hello!
+I bi kid.
+I bi man.
+I bi pursun. -- Yoo bi pursun also. (pointa at seeor)
+I bi boy and yoo bi coeboy. (pointa at coeboy)
+I hava bol and yoo hava box. (wun saya tu the uther)
+~~~
+
+### Ideas ###
+
+- Word list associated with each lesson, with translations (show on mouseover)
+- Choose a testing plan.
+- Idea: fill in the blank (cover up something in a picture, user says what it is)
+- Orthographics: given a compound word like ????, user says whether a proposed spelling like ??? is correct. Or given an Ungglish word along with English spelling and pronounciation (if different), you have to pick the Ungglish word.
+- Syllables: several syllables are offered for a picture. Construct words by clicking the right syllables, or construct sentences by clicking the right words.
+- Game: Word cookies
+- Comics, conversations, stories with hands-free mode
+- Minimal pairs: e.g. check student ability to distinguish gus clas/glas, cuud/good, back/bag, sum/sun, etc.
+- Pimsleur method:
+  - Algorithm could choose random words and sentences from previous lessons 
+    to repeat based on time since a word was last used. If slow or incorrect 
+    response, user needs to see a word again soon. But how soon???
+  - Begin and end each lesson with words from previous lessons.
+- Teaching principles:
+  - Avoid ambiguity in pictures.
+  - Show boundaries of meanings by showing things that are and are not each new noun/verb/adj. This is less practical in early lessons though and those early nouns and verbs should be revisited later when the student knows more words.
+- Early input box helpers (HTML): spell check, suggestions given word from english (status bar: no automatic replacement for learners), highlight verbs, adverbs, prepositions and letter pairs with special pronunciations
+- Get feedback from students when we get students.
+
+- Design review: verb can have different meaning from noun/adj/adv. Review how much troule is caused with affix system.
+- Examples: set/seta, rieta/riet, turna/turn?, meena/meen, seeda/seed, noet/noeta, wind/winda, raes/raesa
+- Spelling review: could we define 'e' as making an 'uh' sound following the stressed syllable?
