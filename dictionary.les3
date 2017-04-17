@@ -1,4 +1,5 @@
 ﻿
+
 Pronouns = {
 	// There is no separate possessive pronoun, e.g. "this bi mie" = "this is mine"
 	(ie  , mi   , mie  )
@@ -8,7 +9,7 @@ Pronouns = {
 	(hi  , him  , hiz  )
 	(shi , shim , shiz )
 	(zey , zeym , zeyz )
-	(sey , seym , ``)     // Refers to nothing, like se in Spanish. Allows the subject to be omitted.
+	(sey , ``, ``)        // Refers to nothing, like se in Spanish. Allows the subject to be omitted.
 	(they, theym, theyz)
 	(that, that,  that'z) // plural thats (you can use singular in adjectival form)
 	(this, this,  this'z) // plural this's
@@ -90,7 +91,7 @@ Top5000 = {
 	@q @det wuttiepa = "what kind of"
 	@v    goea   = go
 	@nd @pp theyz  = their
-	@av   can     = "be able (can)"
+	@v    aebla   = (can, "be able")
 	@q @pr hoo    = who
 	@v @md geta   = get // to acquire a noun, or take on the state of an adjective
 	@engerror geta => (groka, under.standa)
@@ -353,6 +354,7 @@ Top5000 = {
 	@248 @n    isue        = issue	// n	
 	@248 @error (ishue, ishuu) => isue	// n	
 	@249 @n    sied        = side 	// n	
+	     @n   `op-sied`    = ("corresponding side", "opposite side")	// n	
 	@250 @n    tiep        = kind 	// n	
 	@251 @nm   for         = four 	// m	
 	@251 @error @prep for  => fer
@@ -445,7 +447,7 @@ Top5000 = {
 	@327 @adv `'round`     = around	// r
 	@328 @n    (`zey-mom`, @ext perrent) = parent	// n
 	@329 @adj  oenli       = only  	// j
-	@330 @v   (`temp-enda`, @ext stopa) = stop  	// v
+	@330 @v    stopa       = stop  	// v
 	@331 @n    faes        = face  	// n
 	@332 @pr  `eny-thhing` = anything	// p
 	@333 @v @ext cree.aeta = create // v (maeka is sufficient)
@@ -505,8 +507,7 @@ Top5000 = {
 	@383 @n   `hi-kid`     = boy  	// n
 	@384 @adj  meybi       = maybe	// r
 	@385 @prep t'word      = toward	// i
-	@386 @adj  cani        = able 	// j
-	@386 @error aebl       => cani	// j
+	@386 @adj  aebl        = able 	// j
 	@387 @n    aej         = age  	// n
 	@388 @prep off         = off  	// i
 	@389 @n    policy      = policy	// n
@@ -523,7 +524,7 @@ Top5000 = {
 	@399 @adv  (`hie-chans-ly`, probly) = probably	// r
 	
 	@400 @n    huemam      = human	// j
-	@401 @v    waeta       = wait 	// v
+	@401 @v    weita       = wait 	// v
 	@402 @v    serva       = serve	// v
 	@403 @n    market      = market	// n
 	@404 @v   (desliefa, @ext diea) = die  	// v
@@ -550,22 +551,22 @@ Top5000 = {
 	@424 @adj  locul       = local	// j
 	@425 @v    (dieifiea, @ext kila        = kill 	// v
 	@426 @nm   six         = six  	// m
-	@427 @v    stey        = remain	// v
-	@427 @error @v (riimaena, re.maena) => steya // v
+	@427 @v   (stey, @ext re.meina) = remain	// v
 	@428 @n    e.fect      = effect	// n
 	@429 @n   `uez-ij`     = use  	// n
 	@430 @intj yah         = yeah 	// u
 	@431 @v    sug.jesta   = suggest	// v
 	@432 @n    clas        = class	// n (means 'category')
 	@engerror clas      => cors
-	@433 @n    cun.troel    = control	// n
-	@434 @v    upieza      = raise	// v (
-	@error @v  raeza       => (upieza, c'lecta)
+	@433 @n    cun.troel   = control	// n
+	@434 @v   (upa, @ext reiza) = raise	// v
+	@error @v  raeza       => (upa, c'lecta)
 	@435 @n    kerr        = care 	// n
 	@error @adv perhaps    => meybi // r
 	@438 @adj  laet        = late 	// j
-	@439 @adj (`des-soft`, @ext hardeng) = hard 	// j  "hard reset" is incorrect, use "dessoft reset"
-	@440 @n    feeld       = field	// n  conflict: past participle of feela
+	@439 @adj (`des-soft`, @ext `hard-eng`) = hard 	// j  "hard reset" is incorrect, use "dessoft reset"
+	@440 @n    feeld       = field	// n  (area of ground) conflict: past participle of feela
+	@440 @n    ology       = field	// n
 	@error @adv (utherly, morly, els) => else // adverb form of "other"
 	@441 @x    els         = else  // means "other" and appars after someone, anyone, everyone, somewhere, anywhere, etc. Also "or else" and wherever else, whoever else...
 	@442 @v    pasa        = pass	// v (to travel by)
@@ -596,34 +597,33 @@ Top5000 = {
 	@463 @v    shoe        = show 	// n
 	@464 @n    leeder      = leader	// n
 	@465 @n @md liet       = light	// n
-	@engerror @adj liet => deshevi
-	@466 @n    tok-sound   = voice	// n
+	@engerror @adj liet => `des-hevi`
+	@466 @n   (`zey-sound`, @ext vois) = voice	// n
 	
-	// foot (standstur), hand (grabstur), leg, arm, torso, finger...
-	// seestur (eye), heerstur (ear), smelstur (nose), taststur (toungue), 
-	// bietstur (teeth, especially the incisors), chuustur (molar teeth), eetstur (mouth), 
-	// voisstur (vocal cords), digestter (intestines)
-	// tuchstur (skin), peestur (male or female), sitstur (butt).
+	// foot (standster), hand (grabster), leg, arm, torso, finger...
+	// seester (eye), heerster (ear), smelster (nose), lickster (toungue), 
+	// bietster (teeth, especially the incisors), chuuster (molar teeth), eetstur (mouth), 
+	// soundster (vocal cords), digestter (intestines)
+	// tuchster (skin), peester (male or female), sitster (butt).
 	
 	@467 @n    (`shi-spous`, @ext wief) = wife 	// n
 	@468 @adj  en.tier     = whole	// j
 	@engerror @adj hoel => e.ntier // j
 	@469 @n    p'lis       = p'lis // n  (decided against "cop" because it can't be used as a verb)
-	@470 @n    miend       = mind 	// n
+	@470 @n @ext miend     = mind 	// n
 	@471 @adv `fienul-ly`  = finally	// r
 	@472 @v    pula        = pull 	// v
 	@473 @v    (goebacka, @ext r'turna)   = return	// v
 	@474 @adj  free        = free 	// j (as in freedom)
 	@engerror @adj free => noncostent
-	@(@475 adj) @(@3324 n) militry = military	// j
-	@engerror  militerry  => militry
+	@(@475 adj) @(@3324 n) militerry = military	// j
 	@476 @n @ext pries     = price // n
 	@477 @n    re.port     = report	// n
 	@478 @adv  les         = less	// r
 	@620 @det  les         = less	// d	62154
 	@479 @prep sed         = "according to" // i
 	@error @n  de.cision   => pick    // n
-	@481 @v    (teecha, @ext ex.plaena) = explain	// v
+	@481 @v    (teecha, @ext ex.pleina) = explain	// v
 	@482 @nd @n `hi-chield` = son      // n   Unusual pronunciation!
 	@483 @v    hoepa = hope 	// v
 	// @484 @   = even 	// c Doesn't exist as conjunction
@@ -640,7 +640,7 @@ Top5000 = {
 	@error     federul     => national  // j
 	@495 @md @v braeka = break	// v
 	@496 @adv  `good-mor-ly` = better	// r
-	@497 @n    (dessaemnes, difrentnes)   = difference // n
+	@497 @n    (`des-saem-nes`, @ext `difrent-nes`)   = difference // n
 	@498 @v @nd tanka      = thank	// v
 	@error @v  re.ceeva    => gota // v
 	
@@ -662,7 +662,7 @@ Top5000 = {
 	@515 @v   `'greea`     = agree	// v
 	@516 @nd @adv specialy = especially	// r
 	@517 @n @nd re.cord    = record	// n
-	@518 @v    picka       = (choose, pick)	// v
+	@518 @v    chooza      = choose	// v
 	@519 @v    werra       = wear	// v
 	@520 @n    paeper      = paper	// n
 	@521 @adj  special     = special	// j
@@ -679,12 +679,13 @@ Top5000 = {
 	@532 @error cupul => perr // n
 	@533 @n    siet        = site	// n
 	@534 @v    enda        = end	// v  (end = stop and not start again, stop = stop with likelihood of starting again, finish = stop and complete)
-	@535 @n   (wurkwurk, @ext project) = project	// n
+	@535 @n   (`wurk-wurk`, @ext project) = project	// n
 	@536 @v    hita        = hit	// v
 	@537 @v    baesa       = base	// v
 	@538 @n @pd (`act-iv-nes`, `act-ij`) = activity	// n
 	@539 @n    star        = star	// n (two meanings: literal and figurative)
-	@540 @n    taebul      = table	// n
+	@540 @n    taebl       = table	// n (flat surface) Note: "bl" is specially allowed instead of "bul"
+	@540 @n   `taebl-eng`  = table	// n (information in rows and columns)
 	@541 @n @pd need       = need	// n
 	@542 @n @md cort       = court	// n (court of law. Use "'reenai" (arena) for basketball)
 	@543 @v @ext pro.duusa = produce	// v
@@ -692,7 +693,7 @@ Top5000 = {
 	@545 @n @pd Amerikian  = American	// n
 	@546 @v    teecha      = teach	// v
 	@547 @n    oil         = oil	// n
-	@548 @n @det (haf, wun-twenth) = half	// d
+	@(@548 det) @(@1636 n) (haf, wun-twenth) = half	// d
 	@549 @n @pd situeaetion = situation	// n
 	@550 @adj  eezi        = easy	// j
 	@551 @n    cost        = cost	// n
@@ -708,9 +709,10 @@ Top5000 = {
 	@560 @n    datuh       = data	// n
 	@561 @v    cuvera      = cover	// v
 	@engerror cuvera       => tok'bouta, proetecta
-	@563 @n    picture     = picture	// n (a photo or drawing of a scene)
-	@564 @adj  cleer       => clear
-	@engerror @adj cleer   => `see-in-'bl`, `seeth-ru-'bl` // j
+	@563 @n @ext picture   = picture	// n (a photo or drawing of a scene)
+	@564 @adj  cleer       => (clear, transparent) // (free of obstructions; unclouded)
+	@564 @adj `cleer-fi`   => clear // (understandable, having clarity)
+	@engerror @adj cleer   => (`see-in-'bl`, `see-thhru-'bl`, `unblockt`) // j
 	@error @adv cleer      => (`'wey`, `see-in-'bl`, `seeth-ru-'bl`)
 	@565 @n @pd practis    = practice	// n
 	@566 @n    pees        = piece	// n Doesn't really conflict with pee, which is uncountable. The vegetable is called peevej.
@@ -718,9 +720,10 @@ Top5000 = {
 	@568 @adj  reecent     = recent // j
 	@569 @v    desc.rieba  = describe	// v
 	@570 @n    product     = product	// n
-	@571 @n   (@pd helth-ist, @pd `medic-ist`, @ext doctur) = doctor	// n
+	@571 @n   (`helth-ist`, `medic-ist`, @ext doctur) = doctor	// n
 	@572 @n    wol         = wall	// n
-	@573 @n   (@pd `op-helth-ist`, @pd `sick-eer`, @ext paeshent) = patient // n
+	     @n   `op-wol`     = "opposite wall"	// n
+	@573 @n   (`op-helth-ist`, `sick-eer`, @ext paeshent) = patient // n
 	@574 @n   `wurk-er`    = worker	// n
 	@575 @n    nooz        = news	// n      ??? could use a "related meaning" or "thingie" or "thing described by this adjective" suffix
 	@576 @n    test        = test	// n
@@ -738,7 +741,7 @@ Top5000 = {
 	@587 @v    cacha        = catch	// v
 	@588 @n    step         = step	// n
 	@589 @n    baeby        = baby	// n
-	@590 @n @pd `cum.puet-or` = computer	// n
+	@590 @n @pd (com, `cum.puet-or`) = computer	// n
 	@591 @n    tiep         = type	// n
 	@592 @n    a.tention    = attention	// n
 	@592 @v    `pey-a.tentiona` = "pay attention"
@@ -760,7 +763,7 @@ Top5000 = {
 	@607 @n     evidens     = evidence	// n
 	@608 @n     windo       = window	// n	68303
 	@609 @adj   hard        = difficult	// j	63947
-	@610 @v     (heerheera, @ext lisena) = listen	// v	64984
+	@610 @v     (`heer-heera`, @ext lisena) = listen	// v	64984
 	@611 @adv   soon        = soon	// r	63168
 	@612 @n     culture     = culture	// n	67128
 	@613 @n     billiun     = billion	// m	65243
@@ -778,10 +781,11 @@ Top5000 = {
 	@619 @n @pd (`sun-seezun`, `hot-seezun`) = summer	// n	62503
 	@621 @v     notisa      = (notice, realize)	// v	61732
 	@621 @error reeulieza   => notisa	// v	61732
-	@engerror   reelieza    => notisa
+	@engerror   reel-ieza   => notisa
 	@622 @nm    hundred     = hundred	// m	61266
 	@error @adj (avail'bl, avael'bl) => (uez'bl, taek'bl)	// j	63187 
-	@624 @n     plant       = plant	// n	63476 Two meanings!
+	@624 @n     plant       = plant	// n	63476 (organism)
+	@624 @n @ext `plant-eng`  = plant	// n	63476 (factory)
 	@engerror @n plant  => `industr-erria`
 	@624 @n @pd (industry-erria, `produs-erria`) = plant	// n	63476 Two meanings!
 	@625 @n @adj liekli _   = likely	// j	63002
@@ -789,11 +793,11 @@ Top5000 = {
 	@error @n   term => (piriud, wurdfraez)	// n	62962
 	@627 @engerror term     = term	// n	62962
 	@628 @j     (`des-long`, @ext short) = short	// j	60451
-	@629 @n     leter       = letter	// n	60369 two meanings!
+	@629 @n     (`wurd-bit`, @ext leter) = letter	// n	60369 two meanings!
 	@engerror   leter       => mesigj
-	@error      (con.dition, cun.dition) => (staet, context, need-ij) // n	63489
-	@631 @n     pick        = choice
-	@error @n   chois       => pick
+	@error     (con.dition, cun.dition) => (staet, context, need-ij) // n	63489
+	@631 @n    (`chooz-ment`, @ext chois) = choice
+	@error @n   chois       => `chooz-ment`
 	@632 @n     plaes       = place	// v	60927
 	@633 @error singgul     => `non-partner-ed`	// j	60072
 	@634 @n     ruul        = rule	// n	61062
@@ -806,9 +810,9 @@ Top5000 = {
 	@639 @n     Conggress   = Congress	// n	62841
 	@640 @n     flor        = floor	// n	62458
 	@641 @n    `goel-driev` = campaign	// n	64172
-	@642 @n     m'teerial   = material	// n	62440
-	@643 @n     peepulcount = population
-	@643 @n     peepulset   = population
+	@642 @n    (`um-um`, @ext m'teerial) = material	// n	62440
+	@643 @n     `peepul-count` = population
+	@643 @n     `peepul-set`   = population
 	@643 @n @pd @ext popuelaetion = population
 	//@644 @_    _ = well	// i	61219 ??? this is not a preposition
 	@645 @n @pd col         = call	// n	59543
@@ -849,7 +853,7 @@ Top5000 = {
 	@675 @v     handula      = "deal with"	// v	57462      ??? means handle (the th in with can be voiced)
 	@676 @n    (per.formment, per.formij, entertaenment) = performance	// n	59909
 	@677 @v     fieta        = fight	// v	56886
-	@678 @v     troe         = throw	// v	57784
+	@678 @v     thhroea      = throw	// v	57784
 	@679 @n     top          = top	// n	57743
 	@680 @adv   fastly       = quickly	// r	56454
 	//@443 @adj  (past, @ext former)  = former	// d (huh? it's not a determinant)
@@ -924,7 +928,8 @@ Top5000 = {
 	@743 @adj  `center-ic`   = central	// j	52501
 	@744 @nm    eit          = eight	// m	50871
 	@745 @adv   thus         = thus	// r	57039
-	@746 @n     treetment    = treatment	// n	53390
+	@746 @n    `treet-ment`  = treatment	// n	53390
+	@746 @n    `treet-um`    = (medication, treatment)	// n	53390
 	@747 @prep  bee.yond     = beyond	// i	50742
 	@748 @adj   hapi         = happy	// j	51669
 	@749 @adv   ex.actly     = exactly	// r	52685
@@ -950,7 +955,7 @@ Top5000 = {
 	@766 @n     preshur      = pressure	// n	50773
 	@767 @v     ac.cepta     = accept	// v	49952
 	@768 @n    (`op-ask-ment`, @ext anser) = answer	// n	49969
-	@769 @nd   `hard-un-ly`  = hard	// r	50793
+	@769 @nd   `hard-eng-ly`  = hard	// r	50793
 	@770 @n     reezors = resource	// n	53398
 	@771 @v    `pick-outa`   = identify	// v	53484
 	@772 @adj   left = left	// j	50479
@@ -995,18 +1000,18 @@ Top5000 = {
 	@809 @n     bil          = bill	// n	49011 (description of the price of goods or services sold)
 	@engerror   bil          => `pri-law`
 	@810 @n     mesigj       = message	// n	47533
-	@811 @v     faela        = fail	// v	47503
+	@811 @v     feila        = fail	// v	47503
 	@812 @prep  outsied      = outside	// i	46628
 	@813 @v    (`des-leeva`, @ext `urieva`) = arrive	// v	47435
 	// analyze, analysis
 	@814 @n     study        = analysis	// n	53840
-	@815 @n     benefit      = benefit	// n	48594
+	@815 @n    (profitfi, @ext benefit) = benefit	// n	48594
 	@816 @n    (naema, `giv-naema`) = name	// v	47375
 	@817 @n     sex          = sex	// n	47827
-	@engerror   sex          => gjender	// n	47827
+	@engerror   sex          => jender	// n	47827
 	@818 @adv  (`frunt-ward`, `pathh-ward`) = forward	// r	47877
 	@819 @n    `law-ist`     = lawyer	// n	47853
-	@820 @v     pre.zenta    = present	// v	49659
+	@820 @v     de.livera    = present	// v	49659
 	@821 @n     section      = section	// n	49764
 	@822 @adj  `en.vierment-ic` = environmental	// j	51192
 	@858 @n     en.vierment  = environment	// n	47807
@@ -1030,7 +1035,7 @@ Top5000 = {
 	@837 @n     de.zien      = design	// n	48605
 	@838 @n     sort         = tiep // n	47086
 	@839 @n     wun          = one	// n	45596
-	@840 @v     acta         = act	// v	45648
+	@840 @v     acta         = (act, perform)	// v	45648
 	@841 @nm    ten          = ten	// m	46827
 	@842 @n    `noel-ij`     = knowledge	// n	50335
 	@843 @n     gun          = gun	// n	47305
@@ -1085,7 +1090,7 @@ Top5000 = {
 	@889 @v     forma         = form	// v	44646
 	@890 @adj   fienul        = final	// j	43589
 	@891 @adj   mein          = main	// j	43707
-	@892 @n     sieens        = science	// n	45726
+	@892 @n     scieent       = science	// n	45726
 	@893 @adj   green         = green	// j	44673
 	@894 @n     memory        = memory	// n	43531
 	@895 @n     card          = card	// n	43605
@@ -1123,7 +1128,7 @@ Top5000 = {
 	@924 @n     tokment       = statement	// n	42941
 	@925 @v     meinteina     = maintain	// v	43493
 	@926 @n     chargj        = charge	// n	42353 (electrical or emotional charge)
-	@926 @n     criemchargj   = charge	// n	42353 (criminal charge)
+	@926 @n    `criem-chargj` = charge	// n	42353 (criminal charge)
 	@engerror   chargj       => (pries, criemchargj)
 	@927 @adj   popuelur      = popular	// j	42399
 	@928 @adj   truditional   = traditional	// j	43681
@@ -1146,21 +1151,23 @@ Top5000 = {
 	@941 @v    'pliea         = apply	// v	42391
 	@942 @n    pley           = play	// n	41662
 	@942 @n    pleyshoe       = play	// n	41662
-	@943 @_    _ = measure	// n	43938
-	@944 @_    _ = wide	// j	41233
-	@945 @_    _ = shake	// v	45160
-	@946 @_    _ = fly	// v	41373
-	@947 @_    _ = interview	// n	41594
-	@948 @v    manigja = manage	// v	40536
-	@949 @n    (sittool, @ext cherr) = chair	// n	43256
+	@943 @n    meshura        = measure	// n	43938
+	@944 @adj  wied           = wide	// j	41233
+	@945 @v    shaeka         = shake	// v	45160
+	@946 @v    fliea          = fly	// v	41373
+	@947 @n   (@ext interviewa) = interview	// n	41594
+	@948 @v    manigja        = manage	// v	40536
+	@949 @n    (`sit-tool`, @ext cherr) = chair	// n	43256
 	@950 @n    fish = fish	// n	41488
-	@951 @_    _ = particular	// j	42291
-	@952 @_    _ = camera	// n	41218
-	@953 @_    _ = structure	// n	43638
-	@954 @_    _ = politics	// n	41758
-	@955 @_    _ = perform	// v	41667
-	@956 @_    _ = bit	// n	41915
-	@957 @_    _ = weight	// n	41919
+	@951 @adj (speci, @ext spec.ific) = (@982 specific, particular)	// j	42291
+	@952 @n   (`see-or`, `reckerd-or`) = camera	// n	41218
+	@953 @n    structure = structure	// n	43638
+	@root      polit = political
+	@954 @n    `polit-ics` = politics	// n	41758
+	//@955 @v @ext per.forma = perform	// v	41667 (redundant - use dooa or acta)
+	@956 @n    bit = bit	// n	41915 (small amount or fragment)
+	@956 @_    bitu = bit	// n	41915 (binary digit)
+	@957 @_    `hevi-nes` = weight	// n	41919
 	@958 @_    _ = suddenly	// r	43382
 	@959 @_    `foun-outa` = discover	// v	40489
 	@engerror  `descuvera` => `foun-outa`	// v	40489
@@ -1168,12 +1175,25 @@ Top5000 = {
 	@961 @adj   top = top	// j	41484
 	@962 @_    _ = production	// n	42052
 	@963 @v    treeta = treat	// v	40264  (to administer to / treat a disease / handle socially)
-	@964 @_    _ = trip	// n	40423
-	@965 @_    _ = evening	// n	40881
+	@964 @n    trip = trip	// n	40423
+	@965 @n   (`op-morning`, `des-morning`, @ext eevning) = evening	// n	40881
+
+
+	// Fluid Solid Unknown
+	// Stir  Shuffle Mix
+	// Drip  Drop
+	// Pour  Drop
+	// Shower 
+	// Spray
+	// Shoot Scatter
+	// 
+	// Add Open 
+
+
 	@966 @_    _ = affect	// v	41496
 	@967 @_    _ = inside	// i	40856
 	@968 @_    _ = conference	// n	40643
-	@969 @_    _ = unit	// n	41087
+	@969 @_    uenit = unit	// n	41087
 	@970 @_    _ = best	// r	39959
 	@971 @_    _ = style	// n	40889
 	@972 @n    (`zey-man`, @ext dult) = adult	// n	40705
@@ -1186,7 +1206,6 @@ Top5000 = {
 	@979 @_    _ = past	// n	39559
 	@980 @_    _ = edge	// n	40960
 	@981 @_    _ = individual	// j	42325
-	@982 @_    _ = specific	// j	42397
 	@983 @_    _ = writer	// n	39666
 	@984 @_    _ = trouble	// n	39659
 	@985 @_    _ = necessary	// j	40776
@@ -1200,7 +1219,7 @@ Top5000 = {
 	@993 @_    _ = dream	// n	39613
 	@994 @n    bar = bar	// n	39853
 	@994 @n    `bar-erria` = bar	// n	39853
-	@995 @adj  `buety-ful`, `des-ugli` = beautiful	// j	40052
+	@995 @adj (`buety-ful`, `buety-us`, `des-ugli`) = beautiful	// j	40052
 	@996 @n    property   = property	// n	40027 (something that is owned)
 	@engerror  property   => attribuet //             (characteristic)
 	@997 @_    _ = instead	// r	39051
@@ -1240,7 +1259,7 @@ Top5000 = {
 	@1031 @_    _ = address	// v	39774
 	@1032 @_    _ = cancer	// n	39407
 	@1033 @_    _ = test	// v	38644
-	@1034 @_    _ = item	// n	40336
+	@1034 @_    ietem = item	// n	40336
 	@1035 @_    _ = reality	// n	38397
 	@1036 @_    _ = coach	// n	40716
 	@1037 @_    _ = step	// v	39356
@@ -1267,7 +1286,7 @@ Top5000 = {
 	@1058 @_    _ = budget	// n	39165
 	@1059 @_    _ = wish	// v	37532
 	@1060 @_    _ = painting	// n	39264
-	@1061 @_    _ = scientist	// n	37700
+	@1061 @n   `scieent-ist` = scientist	// n	37700
 	@1062 @_    _ = safe	// j	36547
 	@1063 @_    _ = agreement	// n	38141
 	@1064 @_    _ = capital	// n	37443
@@ -1410,14 +1429,14 @@ Top5000 = {
 	@1201 @_    _ = insurance	// n	32928
 	@1202 @_    _ = department	// n	32252
 	@1203 @_    _ = battle	// n	31989
-	@1204 @_    _ = beginning	// n	31866
+	@1204 @n    start = beginning	// n	31866
 	@1205 @_    _ = date	// n	31467
 	@1206 @_    _ = generally	// r	33191
 	@1207 @_    _ = African	// j	34557
 	@1208 @_    _ = very	// j	31807
 	@1209 @_    _ = sorry	// j	34270
 	@1210 @_    _ = crisis	// n	32924
-	@1211 @v    cum.pleeta = complete	// v	32813
+	@1211 @v    cum.pleeta = (finish, complete)	// v	32813
 	@1212 @_    _ = fan	// n	32919
 	@1213 @_    _ = stick	// v	32259
 	@1214 @_    _ = define	// v	33958
@@ -1449,7 +1468,7 @@ Top5000 = {
 	@1240 @_    _ = front	// j	32087
 	@1241 @_    _ = distance	// n	31380
 	@1242 @_    _ = wood	// n	31801
-	@1243 @_    handul = handle	// v	30634
+	@1243 @_    treeta = handle	// v	30634
 	@1244 @_    _ = truck	// n	31536
 	@1245 @_    _ = return	// n	31058
 	@1246 @_    _ = mountain	// n	31322
@@ -1531,7 +1550,7 @@ Top5000 = {
 	@1322 @_    _ = protection	// n	29336
 	@1323 @_    _ = settle	// v	28827
 	@1324 @_    _ = feed	// v	28494
-	@1325 @_    _ = collect	// v	28946
+	@1325 @_    c'lecta = collect	// v	28946
 	@1326 @_    _ = additional	// j	29771
 	@1327 @_    _ = while	// n	29579
 	@1328 @_    _ = highly	// r	29554
@@ -1550,7 +1569,7 @@ Top5000 = {
 	@1341 @_    _ = tomorrow	// r	30098
 	@1342 @_    _ = technique	// n	29828
 	@1343 @_    _ = path	// n	28344
-	@1344 @_    _ = ear	// n	29597
+	@1344 @n   `heer-ster` = ear	// n	29597
 	@1345 @_    _ = shop	// n	28589
 	@1346 @_    _ = folk	// n	28698
 	@1347 @_    _ = order	// v	27950
@@ -1573,7 +1592,7 @@ Top5000 = {
 	@1364 @_    _ = aspect	// n	29460
 	@1365 @_    _ = result	// v	29515
 	@1366 @_    _ = insist	// v	27205
-	@1367 @_    _ = failure	// n	28234
+	@1367 @_   `fael-ij` = failure	// n	28234
 	@1368 @_    _ = annual	// j	28471
 	@1369 @_    _ = French	// j	27590
 	@1370 @_    _ = Christmas	// n	28046
@@ -1595,7 +1614,7 @@ Top5000 = {
 	@1386 @_    _ = demonstrate	// v	29170
 	@1387 @_    _ = anybody	// p	28704
 	@1388 @_    _ = murder	// n	28335
-	@1389 @_    _ = gift	// n	27050
+	@1389 @n    gift = gift	// n	27050
 	@1390 @_    _ = religion	// n	28220
 	@1391 @_    _ = review	// n	28141
 	@1392 @_    _ = editor	// n	27734
@@ -1609,7 +1628,7 @@ Top5000 = {
 	@1400 @_    _ = anyway	// r	28170
 	@1401 @_    _ = threaten	// v	26587
 	@1402 @_    _ = commit	// v	26943
-	@1403 @_    _ = female	// j	27952
+	@1403 @_   `shi-ic` = female	// j	27952
 	@1404 @_    _ = youth	// n	27755
 	@1405 @_    _ = wave	// n	26844
 	@1406 @_    _ = move	// n	26717
@@ -1688,7 +1707,7 @@ Top5000 = {
 	@1479 @_    _ = following	// j	26643
 	@1480 @_    _ = historical	// j	27266
 	@1481 @n    medicin = medicine	// n	25511
-	@engerror   medicin => helthology
+	@engerror   medicin => `helth-ology`
 	@1482 @_    _ = tour	// n	25781
 	@1483 @_    _ = depend	// v	25405
 	@1484 @_    _ = photo	// n	25492
@@ -1706,7 +1725,7 @@ Top5000 = {
 	@1495 @_    _ = famous	// j	24631
 	@1496 @_    _ = exercise	// n	25934
 	@1497 @_    _ = knee	// n	25912
-	@1498 @_    _ = flower	// n	25642
+	@1498 @_    flourchuu = flower	// n	25642
 	@1499 @_    _ = tape	// n	25730
 	@1500 @_    _ = hire	// v	25073
 	@1501 @_    _ = familiar	// j	24515
@@ -1715,7 +1734,7 @@ Top5000 = {
 	@1504 @_    _ = fully	// r	24842
 	@1505 @_    _ = cut	// n	25327
 	@1506 @_    _ = will	// n	24351
-	@1507 @_    _ = actor	// n	24848
+	@1507 @_   `act-er` = actor	// n	24848
 	@1508 @_    _ = birth	// n	24515
 	@1509 @_    _ = search	// n	27087
 	@1510 @_    _ = tie	// v	24408
@@ -1749,8 +1768,8 @@ Top5000 = {
 	@1536 @_    _ = otherwise	// r	23793
 	@1537 @_    _ = writing	// n	24995
 	@1538 @_    _ = press	// v	24716
-	@1539 @_    _ = male	// j	24873
-	@1540 @_    _ = start	// n	24071
+	@1539 @_   `hi-ic` = male	// j	24873
+	@1540 @n    start = start	// n	24071
 	@1541 @_    _ = alive	// j	24184
 	@1542 @_    _ = expression	// n	24748
 	@1543 @_    _ = football	// n	25271
@@ -1824,7 +1843,7 @@ Top5000 = {
 	@1611 @_    _ = repeat	// v	22622
 	@1612 @_    _ = carefully	// r	22837
 	@1613 @_    _ = soul	// n	22713
-	@1614 @_    _ = scientific	// j	23691
+	@1614 @adj `scieent-ic` = scientific	// j	23691
 	@1615 @_    _ = impossible	// j	22233
 	@1616 @_    _ = panel	// n	22529
 	@1617 @_    _ = meaning	// n	24064
@@ -1903,7 +1922,7 @@ Top5000 = {
 	@1690 @_    _ = shift	// v	21323
 	@1691 @_    _ = revenue	// n	22445
 	@1692 @_    _ = mark	// v	21236
-	@1693 @_    loe.caet = locate	// v	21843
+	@1693 @v    loe.caeta = locate	// v	21843
 	@1694 @_    _ = county	// n	22675
 	@1695 @_    _ = appearance	// n	21146
 	@1696 @_   `pack-ment` = package	// n	21665
@@ -1931,7 +1950,7 @@ Top5000 = {
 	@1718 @_    _ = crew	// n	21238
 	@1719 @_    _ = deep	// r	21413
 	@1720 @_    _ = accident	// n	20964
-	@1721 @_    _ = male	// n	22398
+	@1721 @_   `hi-wun` = male	// n	22398
 	@1722 @_    _ = meal	// n	21556
 	@1723 @_    _ = hearing	// n	21560
 	@1724 @_    _ = traffic	// n	21296
@@ -1958,7 +1977,7 @@ Top5000 = {
 	@1745 @_    _ = content	// n	21821
 	@1746 @_    _ = select	// v	21617
 	@1747 @n    root = root	// n	20774  (word root or plant root)
-	@1748 @_    _ = nose	// n	21938
+	@1748 @n   `smel-ster` = nose	// n	21938
 	@1749 @_    _ = declare	// v	20550
 	@1750 @_    _ = outside	// r	21556
 	@1751 @_    _ = appreciate	// v	20806
@@ -2048,7 +2067,7 @@ Top5000 = {
 	@1835 @_    _ = golden	// j	19852
 	@1836 @_    _ = motion	// n	19649
 	@1837 @_    _ = German	// j	20096
-	@1838 @_    _ = gender	// n	22190
+	@1838 @n    jender = gender	// n	22190
 	@1839 @_    _ = solve	// v	19501
 	@1840 @_    _ = fee	// n	20263
 	@1841 @_    _ = landscape	// n	20171
@@ -2078,7 +2097,7 @@ Top5000 = {
 	@1865 @_    _ = fix	// v	19349
 	@1866 @_    _ = appeal	// n	19561
 	@1867 @_    _ = mirror	// n	20081
-	@1868 @_    _ = tooth	// n	20515
+	@1868 @n   (bietster, @ext tooth) = tooth	// n	20515
 	@1869 @_    _ = smart	// j	19370
 	@1870 @_    _ = length	// n	19624
 	@1871 @_    _ = entirely	// r	19075
@@ -2120,9 +2139,9 @@ Top5000 = {
 	@1907 @_    _ = clear	// v	19013
 	@1908 @_    _ = struggle	// n	19014
 	@1909 @adj   meeni = mean	// j	19792
-	@1910 @_    _ = somewhat	// r	18801
-	@1911 @_    _ = pour	// v	19300
-	@1912 @_    _ = stir	// v	20174
+	@1910 @adv  `sum-ly` = somewhat	// r	18801
+	@1911 @v     pora = pour	// v	19300
+	@1912 @_    `mix-'rounda` = stir	// v	20174
 	@1913 @_    _ = judgment	// n	19315
 	@1914 @_    _ = clean	// v	18766
 	@1915 @_    _ = except	// c	18857
@@ -2177,7 +2196,7 @@ Top5000 = {
 	@1964 @_    _ = question	// v	17924
 	@1965 @_    _ = league	// n	19766
 	@1966 @adj `criem-ic` = criminal	// j	18424
-	@1967 @_    _ = careful	// j	17885
+	@1967 @adj `kerr-ful` = careful	// j	17885
 	@1968 @_    _ = core	// n	18571
 	@1969 @_    _ = upper	// j	18196
 	@1970 @_    _ = rush	// v	18561
@@ -2223,7 +2242,7 @@ Top5000 = {
 	@2010 @_   _ = massive	// j	17551
 	@2011 @_   _ = engineer	// n	17991
 	@2012 @_   weel = wheel	// n	18296
-	@2013 @_   _ = female	// n	18932
+	@2013 @_  `shi-wun` = female	// n	18932
 	@2014 @_   _ = decline	// v	18058
 	@2015 @_   _ = invest	// v	18080
 	@2016 @_   _ = promise	// n	17342
@@ -2233,7 +2252,7 @@ Top5000 = {
 	@2020 @_   _ = rural	// j	18665
 	@2021 @_   _ = AIDS	// n	19384
 	@2022 @_   _ = Jew	// n	17893
-	@2023 @_   _ = narrow	// j	17840
+	@2023 @adj  (`des-wied`, @ext nerroe) = narrow	// j	17840
 	@2024 @_   _ = cream	// n	18443
 	@2025 @_   _ = secretary	// n	17922
 	@2026 @_   _ = gate	// n	17999
@@ -2245,7 +2264,7 @@ Top5000 = {
 	@2032 @_   _ = unfortunately	// r	17482
 	@2033 @_   _ = hat	// n	18198
 	@2034 @_   _ = legislation	// n	17934
-	@2035 @_  (`des-faela`, `hav-succesa` = succeed	// v	17423
+	@2035 @v  (`des-faela`, `hav-succesa` = succeed	// v	17423
 	@2036 @_   _ = either	// d	17257
 	@2037 @_   _ = celebrate	// v	17421
 	@2038 @_   _ = achievement	// n	18998
@@ -2334,7 +2353,7 @@ Top5000 = {
 	@2121 @_   _ = climate	// n	17189
 	@2122 @_   _ = cheese	// n	17416
 	@2123 @_   _ = observation	// n	17500
-	@2124 @_   _ = childhood	// n	16268
+	@2124 @_  `chield-ship` = childhood	// n	16268
 	@2125 @_   _ = payment	// n	16704
 	@2126 @_   _ = sir	// n	17733
 	@2127 @_   _ = permit	// v	16764
@@ -2361,10 +2380,10 @@ Top5000 = {
 	@2148 @_   _ = library	// n	16314
 	@2149 @_   _ = agenda	// n	16449
 	@2150 @_   _ = recover	// v	15786
-	@2151 @_   _ = factory	// n	16240
+	@2151 @n  (`maek-erria`, @ext factory) = factory	// n	16240
 	@2152 @_   _ = selection	// n	16706
 	@2153 @_   _ = primarily	// r	17015
-	@2154 @_   _ = roof	// n	16520
+	@2154 @n  (`bild-ment-top`, @ext roof) = roof	// n	16520
 	@2155 @_   _ = unable	// j	15901
 	@2156 @_   _ = expense	// n	16274
 	@2157 @_   _ = initiative	// n	16445
@@ -2419,7 +2438,7 @@ Top5000 = {
 	@2206 @_   _ = tension	// n	15614
 	@2207 @_   _ = display	// n	15575
 	@2208 @_   _ = leading	// j	15665
-	@2209 @_   _ = bother	// v	15870
+	@2209 @v   bothera = bother	// v	15870
 	@2210 @_   _ = consist	// v	16648
 	@2211 @_   _ = alcohol	// n	15877
 	@2212 @_   _ = enable	// v	16293
@@ -2432,7 +2451,7 @@ Top5000 = {
 	@2219 @_   _ = release	// n	15540
 	@2220 @_   _ = cop	// n	16228
 	@2221 @_   _ = Arab	// j	16732
-	@2222 @adj @det dubul = double	// j	15233
+	@2222 @adj @det dubl = double	// j	15233
 	@2223 @_   _ = walk	// n	15632
 	@2224 @_   _ = sand	// n	15658
 	@2225 @_   _ = Spanish	// j	15512
@@ -2492,7 +2511,7 @@ Top5000 = {
 	@2279 @_   _ = negotiation	// n	15680
 	@2280 @_   _ = good	// n	15259
 	@2281 @_   _ = urge	// v	14894
-	@2282 @n   (vis, @ext oe.casion) = occasion	// n	14792
+	@2282 @n   (vis, @ext oe.caesion) = occasion	// n	14792
 	@2283 @_   _ = dust	// n	15475
 	@2284 @_   _ = breathe	// v	15813
 	@2285 @n   electa = elect	// v	15350
@@ -2593,7 +2612,7 @@ Top5000 = {
 	@2380 @_   _ = total	// n	14559
 	@2381 @_   _ = usual	// j	14305
 	@2382 @_   _ = anger	// n	14241
-	@2383 @_   _ = psychological	// j	15249
+	@2383 @adj (`miend-ological`, @ext `miend-ological`) = psychological	// j	15249
 	@2384 @_   _ = heavily	// r	13964
 	@2385 @_   _ = peak	// n	14481
 	@2386 @_   _ = approximately	// r	15172
@@ -2641,7 +2660,7 @@ Top5000 = {
 	@2428 @_   _ = block	// v	13688
 	@2429 @_   _ = electronic	// j	14057
 	@2430 @_   _ = ally	// n	14025
-	@2431 @_   _ = journey	// n	13599
+	@2431 @_  `trip-trip` = journey	// n	13599
 	@2432 @_   _ = reputation	// n	13681
 	@2433 @_   _ = mixture	// n	14856
 	@2434 @_   _ = surely	// r	13904
@@ -2696,7 +2715,7 @@ Top5000 = {
 	@2483 @_   _ = crop	// n	13733
 	@2484 @_   _ = dig	// v	13633
 	@2485 @_   _ = strike	// n	13686
-	@2486 @_   _ = permanent	// j	13390
+	@2486 @adj (perm, @ext permunent) = permanent	// j	13390
 	@2487 @_   _ = plant	// v	13526
 	@2488 @_   _ = phenomenon	// n	14087
 	@2489 @_   _ = anxiety	// n	14088
@@ -2754,7 +2773,7 @@ Top5000 = {
 	@2541 @_   _ = channel	// n	12975
 	@2542 @_   _ = extreme	// j	13064
 	@2543 @_   _ = tube	// n	13364
-	@2544 @_   _ = drawing	// n	13377
+	@2544 @n   `draw-ment` = drawing	// n	13377
 	@2545 @_   _ = protein	// n	14036
 	@2546 @_   _ = quit	// v	13045
 	@2547 @_   _ = absence	// n	13597
@@ -2872,7 +2891,7 @@ Top5000 = {
 	@2659 @_   _ = chocolate	// n	12682
 	@2660 @_   _ = Italian	// j	12384
 	@2661 @_   _ = Canadian	// j	12820
-	@2662 @_   _ = ceiling	// n	12668
+	@2662 @_  (`op-flor`, @ext ceeling) = ceiling	// n	12668
 	@2663 @_   _ = sweep	// v	12431
 	@2664 @_   _ = advertising	// n	12601
 	@2665 @_   _ = universal	// j	12590
@@ -3104,7 +3123,8 @@ Top5000 = {
 	@2890 @_   _ = sudden	// j	11370
 	@2891 @_   _ = dirty	// j	11112
 	@2892 @_   _ = violation	// n	11154
-	@2893 @_   _ = tongue	// n	11674
+	@2893 @n (`lick-ster`, `taest-ster`) = tongue	// n	11674
+	      @v  `licka` = lick	// n	11674
 	@2894 @_   _ = license	// n	10943
 	@2895 @_   _ = hold	// n	10984
 	@2896 @_   _ = shelter	// n	10891
@@ -3208,7 +3228,7 @@ Top5000 = {
 	@2994 @_   _ = gesture	// n	10739
 	@2995 @_   _ = depending	// i	10461
 	@2996 @_   _ = ongoing	// j	10721
-	@2997 @_   _ = psychology	// n	11316
+	@2997 @n  (`miend-ology`, @ext `sykology`) = psychology	// n	11316
 	@2998 @_   _ = since	// r	10334
 	@2999 @_   _ = counselor	// n	12170
 	@3000 @_   _ = witness	// v	10178
@@ -3250,7 +3270,7 @@ Top5000 = {
 	@3036 @_   _ = survivor	// n	10317
 	@3037 @_   _ = besides	// r	10537
 	@3038 @_   _ = in	// c	9996
-	@3039 @_   _ = psychologist	// n	10698
+	@3039 @n  (`miend-ologist`, @ext `syk-ologist`) = psychologist	// n	10698
 	@3040 @_   _ = wealthy	// j	10054
 	@3041 @_   _ = galaxy	// n	11159
 	@3042 @_   _ = given	// j	10622
@@ -3386,7 +3406,7 @@ Top5000 = {
 	@3172 @_   _ = consumption	// n	10162
 	@3173 @_   _ = assert	// v	10125
 	@3174 @_   _ = blade	// n	10394
-	@3175 @_   _ = temporary	// j	9465
+	@3175 @adj (temp, @ext temporerry) = temporary	// j	9465
 	@3176 @_   _ = medication	// n	9789
 	@3177 @_   _ = print	// v	9508
 	@3178 @_   _ = cabin	// n	9955
@@ -3461,7 +3481,7 @@ Top5000 = {
 	@3247 @_   _ = twelve	// m	9638
 	@3248 @_   _ = weekly	// j	9297
 	@3249 @_   _ = habitat	// n	9665
-	@3250 @_   _ = grain	// n	9520
+	@3250 @_   grein = grain	// n	9520
 	@3251 @_   _ = brush	// v	9806
 	@3252 @_   _ = consciousness	// n	9758
 	@3253 @_   _ = devote	// v	9326
@@ -3657,7 +3677,9 @@ Top5000 = {
 	@3443 @_   _ = stem	// n	8963
 	@3444 @_   _ = surgeon	// n	8519
 	@3445 @_   _ = acceptable	// j	8723
-	@3446 @_   _ = physics	// n	9184
+	@stem      `phys` = _
+	@3446 @n   `phys-ics` = physics	// n	9184
+	@3446 @n   `phys-ology` = physics	// n	9184
 	@3447 @_   _ = rape	// n	8790
 	@3448 @_   _ = counsel	// n	9387
 	@3449 @_   _ = brush	// n	8821
@@ -3871,7 +3893,7 @@ Top5000 = {
 	@3657 @_   _ = past	// r	7921
 	@3658 @_   _ = wrist	// n	8250
 	@3659 @_   _ = curtain	// n	8204
-	@3660 @_   _ = monitor	// n	7879
+	@3660 @n  `shoe-or` = monitor	// n	7879
 	@3661 @_   _ = pond	// n	7971
 	@3662 @_   _ = domain	// n	8641
 	@3663 @_   _ = guilt	// n	7746
@@ -3896,7 +3918,7 @@ Top5000 = {
 	@3682 @_   _ = continuing	// j	7845
 	@3683 @_   _ = harm	// n	7619
 	@3684 @_   _ = railroad	// n	7796
-	@3685 @v   en.duura = (endure, `put up with`)	// v	7586
+	@3685 @v   en.duura = (endure, tolerate, `put up with`)	// v	7586
 	@3686 @_   _ = radiation	// n	7912
 	@3687 @_   _ = horn	// n	7813
 	@3688 @_   _ = chronic	// j	8036
@@ -4105,7 +4127,7 @@ Top5000 = {
 	@3891 @_   _ = frame	// v	7063
 	@3892 @_   _ = evil	// j	7045
 	@3893 @_   _ = acquisition	// n	7338
-	@3894 @_   _ = pit	// n	7132
+	@3894 @_  `semi-hoel` = pit	// n	7132 (hole that does not go all the way through)
 	@3895 @_   _ = hug	// v	7478
 	@3896 @_   _ = wildlife	// n	7361
 	@3897 @_   _ = punish	// v	6955
@@ -4150,7 +4172,7 @@ Top5000 = {
 	@3936 @_   _ = expertise	// n	7219
 	@3937 @_   _ = hay	// n	6914
 	@3938 @_   _ = program	// v	7015
-	@3939 @_   _ = picture	// v	7103
+	@3939 @ext picturea = picture	// v	7103
 	@3940 @_   _ = tune	// n	6887
 	@3941 @_   _ = eating	// n	7067
 	@3942 @_   _ = age	// v	7005
@@ -4167,7 +4189,7 @@ Top5000 = {
 	@3953 @_   _ = therapist	// n	7170
 	@3954 @_   _ = slice	// v	7316
 	@3955 @_   _ = peel	// v	7182
-	@3956 @_   _ = pizza	// n	7130
+	@3956 @_   pitsudish = pizza	// n	7130
 	@3957 @_   _ = recipient	// n	7126
 	@3958 @_   _ = hesitate	// v	7462
 	@3959 @_   _ = flip	// v	7274
@@ -4255,7 +4277,7 @@ Top5000 = {
 	@4041 @_   _ = lonely	// j	6868
 	@4042 @_   _ = automobile	// n	6829
 	@4043 @_   _ = artificial	// j	6730
-	@4044 @_   _ = dawn	// n	6929
+	@4044 @n  (`sun-up`, `morning-start`) = dawn	// n	6929
 	@4045 @_   _ = abstract	// j	7165
 	@4046 @_   _ = descend	// v	6896
 	@4047 @_   _ = silly	// j	6857
@@ -5132,7 +5154,7 @@ Top5000 = {
 	@4918 @_   _ = dense	// j	5061
 	@4919 @_   _ = seminar	// n	5106
 	@4920 @_   _ = electronics	// n	5116
-	@4921 @_   _ = sunny	// j	5117
+	@4921 @_  `sun-us` = sunny	// j	5117
 	@4922 @_   _ = shorts	// n	5148
 	@4923 @_   _ = swell	// v	5125
 	@4924 @n   accuesaetion = accusation	// n	4987
@@ -5212,6 +5234,7 @@ Top5000 = {
 	@4998 @_   _ = middle-class	// j	5025
 	@4999 @_   _ = apology	// n	4972
 	@5000 @_   _ = till	// i	5079
+	@adj  `taest-ey` = delicious
 	@error deed => act
 	     (`multi-meen-ij-us`, @ext ambiguous) = 
 		  `so-an-so` = `so-and-so`
@@ -5234,13 +5257,31 @@ Top5000 = {
 	@n    `loe-cost` = (`low-cost`, `low-end`)
 	@n    `mid-cost` = (`middle-end`)
 	@n    (`cum.pleet-ij`, @ext `cum.pleetion`) = completion
+	@adj  `see-thhru-'bl` = transparent
+	@n    `mom-ship` = motherhood
+	@n    `dad-ship` = fatherhood
+	@n    `dey-end` = dusk
+	@n    `sun-down` = sundown
+	@n    `des-niet` = daytime
+	@fraez "niet an des-niet" = "night and day"
+	@n    `piep-ics` = plumbing
+	@n    `piep-wurks` = plumbing
+	@n    `tooth-ics` = dentistry
+	@v    `imigja` = image // (to make an image)
+	@adv  `scieent-ly` = scientifically
+	@n    `king-ey` = ("good king", "benevolent dictator")
+	@v    cum.pueta = compute
+	@n    cum.puetaetion = computation
+	@v @ext `shuful-mixa` = shuffle
+	@n    `eg-dish` = "egg dish"
+	@n    `eg-food` = (egg, "prepared egg")
 }
 
 Affixes = {
 	// Affixes of degree, number or likeness
 	@prefix multi = "multi-": "TODO"
 	@prefix mini = "small, slightly": "The minikid wuza minihappi 'bout that."
-	@prefix `miecro-` = "very small": "They uezta naema persunul cumpueter \"miecroe-cumpueter\" cuz it wuza so much smolmor than the tipicul cumpueters in that era."
+	@prefix `miecro-` = "very small": "They uezta naema persunul cumpuetor \"miecroe-cumpuetor\" cuz it wuza so much smolmor than the tipicul cumpuetors in that era."
 	@prefix tini = "teeny-tiny, very slightly": "Mie shert had be.cuma tiniwet cuzuv swet." // tiniwet = damp
 	@prefix `mili` = "at millimeter scale": ""
 	// Not the same pronunciation or meaning as "micro" in English
@@ -5249,8 +5290,7 @@ Affixes = {
 	@prefix suuper = "extremely; unusually capable": "It be so suuperhot thut ie cuud desliefa!"
 	@suffix ish[adj => adj, n => adj] = "similar to; lesser in magnitude": "It doen be hot in hir, oenly hotish."
 	@suffix semi = "having certain elements of; partially": "Ie semisleepda an then eetda semimeel uv liquids."
-	
-	@suffix oid = "generalization of": "Did yoo toka or tokoida with shim?"
+	@suffix fi = "a figurative or more generalized idea": "Did yoo toka or tokoida with shim?"
 
 	// All living things, except certain words for people, must have one of these suffixes or the prefix "see"
 	@suffix am = "mammal": "Huemams, rabitams and uther mamuls hava bithot blud."
@@ -5269,9 +5309,13 @@ Affixes = {
 	@suffix root = "tuber vegetable, or root": ""
 	// Not required for the most popular fruits: mangoes, bananas, and apples
 	@suffix fruut = "fruit": ""
+	@suffix food = "food (edible things such as diary that are not better described by another suffix)": "Evrywun luva cheezfood!"
+	@suffix dish = "dish (food prepared by a recipe)": "It bi bontaest cheez!"
+	@suffix pul  = "plant": "flowerpul"
 	@suffix werr = "-wear: type of clothing or software."
 	@suffix oid[adj => n] = "-oid; similar in shape to": ""
-	@suffix com = "computer or communication device": "Ie hava iePad slabcom an Mac-com olso. Ie doen lieka Windoes-coms."
+	@suffix com = "computer": "Ie hava iePad slabcom an Mac-com olso. Ie doen lieka Windoes-coms."
+	@suffix ap = "app (computer program)": "Ie hava nies drawap thut ie ueza tu maeka ol mie drawments."
 
 	// Other word group affixes
 	// Note: one can always use a noun as a suffix informally, e.g. jacketcoat
@@ -5288,7 +5332,7 @@ Affixes = {
 	@prefix coe = "co-, together with": "Mie cowurker bi coeliefer uv mi too."
 	@prefix non[n, adj] = "non-": "Ie lieka nonhuemam animuls."
 	@suffix eng = "Marks a predefined alternate sense of an English word root, when the alternate sense seems unrelated to the main sense": "Ol rocks bi hardeng."
-	@suffix u = "Having a related, specialized meaning used in a particular field": ""
+	@suffix uu = "Having a related, specialized meaning used in a particular field": ""
 	@suffix o = "Indicates a compound concept or tight binding with the following word": ""
 	@prefix yester[n => n] = "the previous one before now": "Yesterdey ie seeda burd."
 	@prefix nexter[n => n] = "the next one after now": "Doen duua t'dey that wich yoo can laetena til nexterdey."
@@ -5301,8 +5345,7 @@ Affixes = {
 	@prefix sub = "sub-: lower in rank; below": ""
 	@prefix ish = "-like": "That gie bi verry frendish. Olmoest too frendish."
 	@suffix ig = "ignomenious; indicates disreputability or shamefulness, or that someone dislikes a thing or action": "Ie doen liek the wey thut he smeliga, and spreda ie.diaigs"
-	@prefix temp = "temporarily": "The bus tempenda yeh evry cityblock."
-	@prefix perm' = "permanently": "God perm'reckerda the ten cumandments on Mo'ses'z rock slab's."
+	@suffix ey = "good": "It bi taestey, yoo il lieka it."
 	
 	@suffix box = "box-shaped container": ""
 	@suffix bag = "bag (container)": ""
@@ -5311,15 +5354,16 @@ Affixes = {
 	@suffix moes = "most, -est": "Mountin Everest bi the hiemoes mountin on Erth."
 	
 	// Nounifying affixes
+	@suffix bit[n => n] = "fragment; small amount": "Huemams, rabitams and uther mamuls hava bithot blud."
 	@suffix sum[nm => n] = "group of (must be attached to a number)": "The forsum olweys liekda eeta withly."
 	@suffix uf[adj => n] = "stuff to which the adjective applies (used only when -wun or -dee is not applicable)": "Wut bi that reduf on the ground?"
 	@suffix oid[adj => n] = "-oid; similar in shape to": "Fuutbol doen bi reel bol. It bi just boloid."
 	@suffix nes[adj => n] = "-ness or -ity: the trait or degree of that adjective": "The hotnes wuza hie, wich cawzda rednes on hiz faes."
 	@suffix wun[adj => n] = "an object described by the adjective": "Wich du yoo liek mor, the redwun or the bluuwun?"
-	@suffix @ext dee[v => n] = "-ee; synonym for -d-wun": "The peydee getda ten thhouzun frum the cawmenment. The uther employdee getda noethhing."
+	@suffix dee[v => n] = "-ee; synonym for -d-wun": "The peydee getda ten thhouzun frum the cawmenment. The uther employdee getda noethhing."
 	@suffix eer[adj => n, n => n] = "person associated with something": "The maeleer giva me mie mael evri dey."
 	@suffix er[v => n] = "person who takes an action": "The dishwasher washa dish's."
-	@suffix stur[v => n] = "body part": "My bietstur hava tinihoel in it and needa filster."
+	@suffix ster[v => n] = "body part": "My bietster hava tinihoel in it and needa filster."
 	@suffix tool[v => n] = "manual or passive tool": "Ie lookda at mi-self in the reflecttool az ie uezda faesherrcuttool."
 	@suffix ij[v => n] = "-age, the noun form of an action, or the intangible thing associated with a verb": "That uezij uv the tool sa unsaef."
 	// In department, it's not a suffix. What about government and management - the organization that does an action? How about -mint: guvermint, manugjmint?
@@ -5332,17 +5376,16 @@ Affixes = {
 	@suffix `'bl`[v => n] = "-able": "That bi do'bl."
 
 	// Verbifying affixes
-	@suffix en[adj => v] = "-en, -ize: to make an attribute apply to something (transitive)": "The wether gitda hotmor and the ies liquidiezda."
+	@suffix en[adj => v] = "-en, -ify: to make an attribute apply to something (transitive)": "The wether gitda hotmor and the ies liquidiezda."
 	@suffix iez[n => v, adj => v] = "-ize: To turn into something or take on an attribute": ""
-	@suffix ifie[n => v, adj => v] = 
+	@suffix ifie[n => v, adj => v] = "-ify: To cause something to have an attribute or become something": ""
 
 	// Adjectivifying affixes
 	// Note: for -tion words, add -al instead of -ic, e.g. national
 	@suffix ic[n => adj] = "-ic; relating to": "That factory maeka caric parts fer cars."
 
 	// Other affixes that change parts of speech
-	@suffix eri = "relating to, in a way that is specialized to a particular field": "Lungery?"
-	@suffix cide = "killing": "Ie wuud'n desl siblingcide?"
+	@suffix cide = "killing of": "Ie wuud'n dreema dooa siblingcide?"
 	@suffix (d, `'d`)[v => adj] = "participle": "The descuverd hint leedda the in.vestigaeter tu founa uther hint."
 	@suffix ed[n => adj] = "having": "The nonsherted mans wuza stil panted."
 
@@ -5354,7 +5397,6 @@ Affixes = {
 	@suffix par = "part of": "This factory maeka carpars, specially enjinpars."
 	// Not "wurd" to avoid conflict with the word for "word"
 	@suffix ward = "in the direction of": "Goe upward, then looka windo-ward."
-	@suffix eri = "relating to, in a way that is specialized to a particular field": "Lungery?"
 	
 	// Extra affixes
 	@prefix ee = "e-: electronic": ""
@@ -5366,16 +5408,14 @@ Affixes = {
 	// -erria is for reasonably large areas, e.g. deshoterria is not an acceptable for
 	// "refrigerator" unless it's a walk-in fridge.
 	@suffix erria[v => n, n => n, adj => n] = "designated area for": "Ie wurka in coelum industrerria wiel mie sibling wurka in pitserria." // pizzeria
-	// Remove final -i or -y before adding -io
-	@suffix zi[adj => n] = "Person who has an attribute": "Kiendzi x"
 	// Stress implicitly falls on the syllable before 'tion'
-	@suffix (aetion, tion, sion)[v => n] = ("-tion (something created by means of the preceding verbal root, or a process using that verb)": 
+	@suffix (aetion, tion, aesion, sion)[v => n] = ("-tion (something created by means of the preceding verbal root, or a process using that verb)": 
 	                  "Mie action wuza the goodmoes solvation fer the problem.")
 	@suffix (tional, sional)[v => adj] = "-tional (adjectival form of -tion)": "It bi national criesis!")
 	@prefix ology = "field of study or endeavor": "economics"
 	@suffix `.ocrucy`[n => n, adj => n] = "governance by": "The Wuniezd Staetuns bi be.cuma richocrucy."
 	@suffix oe.cratic[n => adj, adj => adj] = "relating to governance by": "Noo ie.dias doen bi welcum in kingigoe.cratic cuntrys."
-	@suffix i = "Added to any noun of adjective that, in English, ended with -a": "Du yoo lieka eeta pitsai?"
+	@suffix ey = "Replaces the -a ending in any noun or adjective imported from another language.": "Du yoo lieka eeta pitsai?"
 }
 
 Examples = {
@@ -5388,7 +5428,7 @@ Oddballs = {
 
 // Normal asko formation is "<tense> <sentence>":
 //   Doo yoo lieka this cupcaeks?
-//   Wil yoo helpa mi or not?
+//   Il yoo helpa mi or not?
 //   Did yoo can jumpa oever that fens?
 // But for certain verbs, you can move the verb to the front:
 //   Be yoo helth-ist?

@@ -5,16 +5,17 @@ Ungglish is like English, but it's not English. It's dramatically easier to lear
 
 - 10 times easier than English
 - Phonetic: After learning the rules, you can tell how any Ungglish word is pronounced by looking at it.
-- Small vocabulary: By eliminating synonyms, re-using existing English affixes and introducing new ones, you can say more with fewer root words. "Word group" suffixes help students understand sentences containing unfamiliar words.
-- Simple & Regular: No irregular plurals, virtually no irregular past tenses. Pronouns are partially regularized, and verbs have only two conjugationsl 
-- Consistent & Predictable: Unlike in English, most patterns of word formation and grammar are universal in Ungglish. Affixes are productive: they can form new words.
-- One meaning for one word: Many English words have several meanings. Not in Ungglish. "Hard" can only mean "
+- Small vocabulary: Ungglish has much fewer word roots than English. "Word group" suffixes help students understand sentences containing unfamiliar words.
+- Simple & Regular: No irregular plurals, virtually no irregular past tenses. Pronouns are partially regularized, and verbs have only two conjugations.
+- Consistent & Predictable: Unlike in English, most patterns of word formation and grammar are universal in Ungglish. Affixes are productive: you can use them to create new words.
+- One meaning for one word: Many English words have several meanings. Not in Ungglish: "treat" means "handle", not "give food or other amenities as a gift". "prezent" means "existing here and now", not "gift". Only "gift" means "gift".
 - One word for one meaning: "take out" means "kill"? "put up with" means "tolerate"? Not in Ungglish, where each word can be understood independently of the others.
 - Avoids idioms: English has thousands of idioms; Ungglish discourages them. Phrases like "hot potato", "at the drop of a hat", "piece of cake" and "keep something at bay" are meaningless in Ungglish. Only phrases with an obvious meaning, such as "a blessing in disguise" or "to make a long story short" can be directly translated.
 - More obvious structure: It is easier to pick apart Ungglish sentences and understand their grammar. Endings like -ing have fewer grammatical functions.
-- Flexible & expressive: There are often as many ways to express a thought in Ungglish as in English, and often more ways.
+- Flexible & expressive: There are many ways to express a thought in Ungglish - including some ways that English won't allow.
 - Slightly simpler phonetics: Ungglish eliminates one consonant and two vowels from English.
 - Computer-friendly: Compared to English, Ungglish could be deciphered and translated to other languages more easily (if we can attract computational linguists to the project). It should be possible to create a tool to translate Ungglish to English automatically, and we hope to make tools to partially automate the translation process from English to Ungglish.
+- Editor: editors & apps will be written to help you write Ungglish correctly and avoid misusing Ungglish words (help wanted).
 - A secret language: Ungglish is more compact and less well-known than Pig Latin, so English speakers may enjoy using it as a "secret language" among themselves.
 
 Introduction to Ungglish
@@ -47,9 +48,11 @@ On the other hand, learning Ungglish before you learn English makes perfect sens
 
 If you don't have money to hire translators, it is nice to have automatic translation. Unfortunately, automatic machine translation is unreliable; it often produces output that is impossible to understand.
 
-Nonsensical output is usually caused by ambiguity: the fact that one word or phrase can have two or more completely different meanings. The computer doesn't know which meaning was intended and picks one arbitrarily. Because Ungglish is more specific and less ambiguous than other languages (especially English), a computer can (in principle) translate it more reliably to other languages.
+Nonsensical output is usually caused by ambiguity: the fact that one word or phrase can have two or more completely different meanings. The computer doesn't know which meaning was intended and simply makes a guess, which is often wrong. Because Ungglish is more specific and less ambiguous than other languages (especially English), a computer can (in principle) translate it more reliably to other languages.
 
-Since translatability is a secondary goal, Ungglish is not entirely unambiguous, but it is less ambiguous than English, and software could (theoretically) warn you when you have written something ambiguous. A common ambiguity in Ungglish is the same as in English: a noun phrase that has at least two nouns in it. For example, consider "black car factory". Is the factory black, or are the cars black? Many other languages would clearly distinguish between the two possibilities, but English doesn't. If you write "black-car factory", with a dash, then it means the cars are black; but many English writers don't include a dash, so when you see it with no dash, you cannot tell whether the factory or the cars are black. Ungglish partly solves the problem by allowing an extra suffix "o" to signal "tighter binding". So "black caro factory" means that "car" and "factory" should be treated as a single unit, meaning that the factory is black and not the cars. You can also say "blacko car factory", meaning that the cars are black and not the factory. The translation tool should warn writers when they have said something like "black car factory" that is ambiguous and has multiple possible translations, and it should suggest clearer phrasings.
+Since translatability is a secondary goal, Ungglish is not entirely unambiguous, but it is less ambiguous than English, and software could (theoretically) warn you when you have written something ambiguous.
+
+A common ambiguity in Ungglish is the same as in English: a noun phrase that has at least two nouns in it. For example, consider "black car factory". Is the factory black, or are the cars black? Many other languages would clearly distinguish between the two possibilities, but English doesn't. If you write "black-car factory", with a dash, then it means the cars are black; but many English writers don't include a dash, so when you see it with no dash, you cannot tell whether the factory or the cars are black. Ungglish partly solves the problem by allowing an extra suffix "o" to signal "tighter binding". So "black caro factory" means that "car" and "factory" should be treated as a single unit, meaning that the factory is black and not the cars. You can also say "blacko car factory", meaning that the cars are black and not the factory. The translation tool should warn writers when they have said something like "black car factory" that is ambiguous and has multiple possible translations, and it should suggest clearer phrasings.
 
 Also, all languages have limitations - there are always things that are easy to say in one language and hard to say in another. It is therefore unavoidable that some words and phrases will not translate perfectly and must be approximated in the target language. But by using Ungglish, the translation should remain comprehensible, unlike translations from English that are often nonsensical. However, translation software has not been written and until it is, we won't know exactly how well Ungglish works for translation.
 
@@ -64,7 +67,7 @@ What makes Ungglish easy?
 
 ### Few synonyms ###
 
-English has many, many synonyms, which are removed from English. For example, "big" and "large"; "huge", "humongous", "collossal", "gargantuan", "enormous", "massive", an so on; "happen" and "occur"; "slam", "smack", "slap" and "hit". Usually, the most common synonym is kept and the less common ones are removed. If two words are used at similar rates, usually the shorter word is kept (e.g big and small are kept; large and little are deleted).
+English has many, many synonyms, which are removed from English. For example, "big" and "large"; "huge", "humongous", "collossal", "gargantuan", "enormous", "massive", an so on; "happen" and "occur"; "choose", "decide", "select" and "pick"; "hit", "smack", "slam" and "slap". Usually, the most common synonym is kept and the less common ones are removed. If two words are used at similar rates, usually the shorter word is kept (e.g big and small are kept; large and little are deleted).
 
 ### No irregular past or plural ###
 
@@ -127,7 +130,6 @@ In all these examples, the verb has two parts (blew-up, put-up...) and the secon
 
 Merging the particle with the verb allows new compound words that are impossible in English. For example we can talk about "take-out-ing" things in Ungglish, or "blow-up-ing" things.
 
-
 ### Fewer gaps in vocabulary ###
 
 Notice that the opposite of hie-chans-ly, loe-chans-ly (low-chance-ly) does not exist in English. "unlikely" is an adjective, not an adverb, so it must be used in a different way. So the low-probability version of "He probably did it" must be rephrased in English as either
@@ -139,7 +141,7 @@ For native speakers this is easy, but if your native language has a word that me
 
 ### Freedom ###
 
-A fun thing about Ungglish is that people can create new words (like "loe-chans-ly"), as long as the new word makes sense logically. Native English speakers sometimes say things like "I like the multi-colored-ness of that balloon-ish thingie"; Ungglish just takes this freedom further. For example, a sentence like "The physicsology teecher shoed hiz lernists how t' strongieza brigj." (The physics-ology teach-er showed his learn-ists how to strong-ize a bridge.) is perfectly normal in Ungglish.
+A fun thing about Ungglish is that people can create new words (like "loe-chans-ly"), as long as the new word makes sense logically. Native English speakers sometimes say things like "I like the multi-colored-ness of that balloon-ish thingie"; Ungglish just takes this freedom further. For example, a sentence like "The physics teecher shoeda hiz lernists how to caekifiea the flourvej an egs." (The physics-ology teach-er showed his learn-ists how to strong-ify a bridge.) is perfectly normal in Ungglish.
 
 ### Minimal word senses ###
 
