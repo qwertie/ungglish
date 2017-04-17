@@ -18,6 +18,8 @@ Ungglish is like English, but it's not English. It's dramatically easier to lear
 - Editor: editors & apps will be written to help you write Ungglish correctly and avoid misusing Ungglish words (help wanted).
 - A secret language: Ungglish is more compact and less well-known than Pig Latin, so English speakers may enjoy using it as a "secret language" among themselves.
 
+**Note:** Why "Ungglish" with two Gs and not "Unglish"? Because Ungglish is phonetic, NG makes a sound like ng in "sing". Therefore, an extra G is required to add a G sound.
+
 Introduction to Ungglish
 ========================
 
@@ -190,16 +192,13 @@ In addition, Ungglish has a gender-neutral pronoun _zey_/_zeym_ which is meant t
 
 The possessive is marked with 'z, where the apostrophe represents a short "uh" sound. Possessive nouns are formed the same way, e.g. the animul'z legs = the animal's legs. The apostrophe adds an extra syllable (except after a vowel), which makes the Ungglish possessive sound different than the plural marker so that listeners can more easily tell plurals and possessives apart.
 
-Eezymor gramur
---------------
+### Easier sounds and spelling ###
 
-### Eezy to recogniez vurbs ###
+The hardest thing about Ungglish is its system of sounds, which is only slightly easier than English. It has 23 consonants, which is one fewer than English, plus 7 "essential" vowels (compared to 9 in English), plus the same diphthongs as English.
 
-It be eezymore t' groka the strucchur uv Ungglish fulfraez's than English wuns b'cuz 
+The spelling system is phonetic in the same way as Spanish: if you know all the spelling rules, you can pronounce any word that is written down. The spelling rules are more complicated than Spanish, but simpler than English. All the spelling rules are based on English and can help students learn English later.
 
-Ungglish is also designed to be easier for computers to automatically translate to other languages.
-
-Ungglish is incomplete and in-progress, so it is impossible to say how many words it will contain. We hope that simple conversations will need less than 500 word roots in total, and that the total number of word roots and word groups will be less than 2000.
+### Software ###
 
 In the Ungglish repository on GitHub, we hope to create the following tools:
 
@@ -207,12 +206,6 @@ In the Ungglish repository on GitHub, we hope to create the following tools:
 2. An editor to help Ungglish learners write Ungglish text by suggesting translations. For example, you could write "clear" and the editor would suggest the Ungglish translations "under.stand'bl", "see-in-'bl" and the verb "git-past-a".
 3. Automatic tools to translate Ungglish text automatically to English (and eventually, to other languages).
 4. Interactive tool to translate English text to Ungglish.
-
-### Easier sounds and spelling ###
-
-The hardest thing about Ungglish is its system of sounds, which is only slightly easier than English. It has 23 consonants, which is one fewer than English, plus 7 "essential" vowels (compared to 9 in English), plus the same diphthongs as English.
-
-The spelling system is phonetic in the same way as Spanish: if you know all the spelling rules, you can pronounce any word that is written down. The spelling rules are more complicated than Spanish, but simpler than English. All the spelling rules are based on English and can help students learn English later.
 
 ### A free course ###
 
@@ -225,6 +218,8 @@ Ungglish word roots are divided into three categories:
 1. Minimal roots: less than 200 essential words for rudimentary communication
 2. Basic roots: about 1000 more roots, which is sufficient for expressing almost any idea easily. You'll be fluent in under six months if you learn 10 roots per day and practice speaking and writing increasingly complicated thoughts.
 3. Extended roots: about 1000 more roots to assist communication with English speakers. These include words like _cold_, which is written _deshot_ in the basic vocabulary, _girl_ (= _shikid_), and _ship_ (= _bigboet_). Extended roots are not needed for communicating in Ungglish, but may help to shorten sentences. A neat thing is that a computer will be able to automatically transform web pages and text files to eliminate (or introduce) extended roots.
+
+**Note**: Ungglish is incomplete and in-progress, so these numbers are guesstimates.
 
 Ungglish courses should teach the minimal roots first, then use an immersion teaching style to help the student reach fluency with the basic roots, then teach the extended roots, before finally moving on to teach English.
 
