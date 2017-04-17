@@ -5,7 +5,7 @@ Ungglish is like English, but it's not English. It's dramatically easier to lear
 
 - 10 times easier than English
 - Phonetic: After learning the rules, you can tell how any Ungglish word is pronounced by looking at it.
-- Small vocabulary: Ungglish has much fewer word roots than English. "Word group" suffixes help students understand sentences containing unfamiliar words.
+- Small vocabulary: Ungglish has much fewer word roots than English. "Word group" suffixes help students understand sentences having certain kinds of unfamiliar words.
 - Simple & Regular: No irregular plurals, virtually no irregular past tenses. Pronouns are partially regularized, and verbs have only two conjugations.
 - Consistent & Predictable: Unlike in English, most patterns of word formation and grammar are universal in Ungglish. Affixes are productive: you can use them to create new words.
 - One meaning for one word: Many English words have several meanings. Not in Ungglish: "treat" means "handle", not "give food or other amenities as a gift". "prezent" means "existing here and now", not "gift". Only "gift" means "gift".
@@ -67,7 +67,13 @@ What makes Ungglish easy?
 
 ### Few synonyms ###
 
-English has many, many synonyms, which are removed from English. For example, "big" and "large"; "huge", "humongous", "collossal", "gargantuan", "enormous", "massive", an so on; "happen" and "occur"; "choose", "decide", "select" and "pick"; "hit", "smack", "slam" and "slap". Usually, the most common synonym is kept and the less common ones are removed. If two words are used at similar rates, usually the shorter word is kept (e.g big and small are kept; large and little are deleted).
+English has many, many synonyms, which are removed from English. For example, "big" and "large"; "huge", "humongous", "collossal", "gargantuan", "enormous", "massive", an so on; "happen" and "occur"; "choose", "decide", "select" and "pick"; "hit", "smack", "slam" and "slap".
+
+Usually, the most common synonym is kept and the less common ones are removed, but the decision can also be influenced by 
+
+- word length (shorter is better): big and small are kept; large and little are deleted
+- how a word is used in English to make compound words (a word is more likely to be kept if it participates in more compound words in English): 
+- by how much the spelling of the word must change in Ungglish (less change is better). 
 
 ### No irregular past or plural ###
 
@@ -77,9 +83,11 @@ Almost all irregularities are gone in Ungglish. The only irregular verb is the o
 
 ### Consistency and predictability ###
 
-English is very inconsistent, and has few universal patterns among pairs of words that are related in the same way. Consider law/legal, base/basic, science/scientific, and automobile/automotive. The relationship between the two words is the same in these examples, but if you only know the first word, you cannot guess the second word. Ungglish solves this problem by expecting a single, consistent suffix "ic" that is used all the time: law => lawic, baes => baesic, scieens => scieensic, car => caric. You can also simply use a noun as an adjective. For example, a "car factory" (or "car maekerria") is a factory that makes cars, but a "caric factory" is a factory that makes things related to cars, such as car parts.
+English is very inconsistent, and has very few reliable patterns among pairs of words that are related in the same way. Consider law/legal, base/basic, science/scientific, death/mortal and automobile/automotive. The relationship between the two words is the same in these examples, but if you only know the first word, you cannot guess the second word. Ungglish solves this problem largely by expecting a consistent suffix "ic": law => lawic, baes => baesic, scieens => scieensic, car => caric.
 
-You'll see this predictability throughout the design of Ungglish. Only a few exceptions are tolerated; for example, the normal suffix for a "language" is "eez" (Vietnameez = Vietnamese, Franseez = French, Spaineez = Spanish) but a special exception is made for "Ungglish" and "Ingglish" (English) so that they are pronounced the same way as in English.
+You can also simply use a noun as an adjective. For example, a "car factory" (or "car maekerria") is a factory that makes cars, but a "caric factory" is a factory that makes things related to cars, such as car parts.
+
+You'll see this predictability throughout the design of Ungglish. Exceptions are tolerated only ocasionally; for example, the normal suffix for a "language" is "eez" (Vi-etnameez = Vietnamese, Franseez = French, Spaineez = Spanish) but a special exception is made for "Ungglish" and "Ingglish" (English) so that they are pronounced the same way as they are in English.
 
 ### Marked verbs make sentences easier to decipher ###
 
@@ -91,15 +99,16 @@ At the same time, the words "a" and "an" are eliminated and merely implied. So t
 
 ### Affixes ###
 
-It also has many prefixes and suffixes (although less than English) including a few that don't exist in English, or that do exist but have a less specific meaning in English. Here are a few examples:
+Ungglish has more than a hundred prefixes and suffixes, which is fewer than English has, but there are a few that don't exist in English or that have a less specific meaning in English. Here are a few examples:
 
-- des-soft (opposite of soft) = hard; des-lieka = dislike
-- -tion is the most inconsistent suffix in Ungglish, but is used to form several internationally recognized words such as "action", "eduecaetion" and "relaetion". It can also be used to create new words like "asktion" (meaning "question") and "urangjtion" (meaning "creation" because create)
-
-product of an action forms the noun version of a verb. So uezij = usage, A question Ungglish doen hava the wurd "request". In-sted yoo saya "askfuro", wich wunieza the English wurds "ask" and "for". The sufix "o" meena thut "askfuro" be naun, and b'cuz the sufix "o" doen ex-ista in English, the sufix olso be hint to lurners thut this wurd doen exista in English (wich is 
-
-
-- "-ist" means "skill at doing some  thing": teech-ist = teacher, helth-ist = doctor, 
+- des-: opposite. des-soft (opposite of soft) = hard; des-lieka = dislike
+- -lus: -less (without). hoemlus = homeless, costlus = free (because free means "having freedom"). This suffix was not spelled -les because it doesn't mean "less", it means "none".
+- -nes: -ness. hapines = happiness, saefnes = safety/security, hotnes = heat
+- -ij: Noun form of a verb. uezij = usage, actij = acting/activity, thhinkij = thought
+- -er: Person that does an action: rieter = writer, manugjer = manager, dishwasher = dishwasher, etc.
+- -or: Machine that does an action: cum.puetor = computer, dishwashor = dishwashing machine, seeor = camera, etc.
+- -ster: Body part that does an action: see-ster = eye, smel-ster = nose, etc.
+- -ist: One that is skilled at something or does it as a profession: teech-ist = teacher, medicist = medic/doctor
 
 ### Compound words ###
 
@@ -110,9 +119,6 @@ Many, many words in English have a simple meaning which can be expressed by putt
 - hi-kid (he-kid) = boy, shi-kid (she-kid) = girl. "Hi" and "shi" are spelled "he" and "she" in English, but pronounced the same in both languages.
 - peydwurk ("paid work") = job.
 - leg-hit-a = kick
-- 
-
-Another exampul sa the Engglish wurds "kick" and "slap". Ol this wurds meena "hit", but with dessaem bodypars. Ungglish re.moova this wurds an ueza in.sted "leg-hit" or "foot-hit", "hand-hit".
 
 Unglish allows compound verbs that contain a preposition, which is not possible in English. Consider these English sentences:
 
@@ -128,30 +134,26 @@ Unglish allows compound verbs that contain a preposition, which is not possible 
 
 In all these examples, the verb has two parts (blew-up, put-up...) and the second part may appear later in the sentence. Ungglish works differently: it merges the preposition into the verb, and only does so when it makes sense. For example, "take out" becomes "taekouta" in Ungglish. It can have a logical meaning, as in "He took it out of the fridge", and the more figurative meaning "bring someone outdoors" is also permissable, as in "He took her out for dinner", because this style is common in English and because "bring" and "take" have similar meanings. However, the meaning "to kill" is too far away from the ordinary meaning of "take", so "take out" cannot mean "to kill".
 
-Merging the particle with the verb allows new compound words that are impossible in English. For example we can talk about "take-out-ing" things in Ungglish, or "blow-up-ing" things.
+Merging the particle with the verb allows new compound words that are impossible in English. For example we can talk about "take-out-ij" things in Ungglish, or a "blow-up-ist" whose profession is, apparently, blowing things up.
 
 ### Fewer gaps in vocabulary ###
 
-Notice that the opposite of hie-chans-ly, loe-chans-ly (low-chance-ly) does not exist in English. "unlikely" is an adjective, not an adverb, so it must be used in a different way. So the low-probability version of "He probably did it" must be rephrased in English as either
+Notice that the opposite of hie-chans-ly, _loe-chans-ly_ (low-chance-ly, with a low probability) does not exist in English. "unlikely" is an adjective, not an adverb, so it must be used in a different way. So the low-probability version of "He probably did it" must be rephrased in English as either
 
     It is unlikely that he did it.
     He probably did not do it.
 
-For native speakers this is easy, but if your native language has a word that means "loe-chans-ly" then it can be frustrating that English does not.
+For native speakers this change is easy, but if your native language has a word that means "loe-chans-ly" then it can be frustrating that English does not.
 
 ### Freedom ###
 
-A fun thing about Ungglish is that people can create new words (like "loe-chans-ly"), as long as the new word makes sense logically. Native English speakers sometimes say things like "I like the multi-colored-ness of that balloon-ish thingie"; Ungglish just takes this freedom further. For example, a sentence like "The physics teecher shoeda hiz lernists how to caekifiea the flourvej an egs." (The physics-ology teach-er showed his learn-ists how to strong-ify a bridge.) is perfectly normal in Ungglish.
+A fun thing about Ungglish is that people can create new words (like "loe-chans-ly"), as long as the new word makes sense logically. Native English speakers sometimes say things like "I like the multi-colored-ness of that balloon-ish thingie"; Ungglish just takes this freedom further. For example, it is perfectly normal to say something like "In the cookroom, the teecher shoeda hiz lernists how to caekdishena the foodparts." (In the kitchen, the teacher showed his students how to cake-ify the ingredients.)
 
 ### Minimal word senses ###
 
-As much as possible, each word in Ungglish has only a single range of meaning. This reduces ambiguity (phrases with multiple meanings), which makes Ugglish easier to understand, and it also makes computerized translation more reliable. For example, the word "hard" in English has several meanings, and the two most common meanings, "difficult" and "opposite of soft" are used at similar rates. By using "des-soft" for "opposite of soft", "hard" can be reduced to one meaning, "difficult".
+As much as possible, each word root in Ungglish has only a single range of meaning. This reduces ambiguity (phrases with multiple meanings), which makes Ugglish easier to understand, and it also makes computerized translation more reliable. For example, the word "hard" in English has several meanings, and the two most common meanings, "difficult" and "opposite of soft" are used at similar rates. By using "des-soft" for "opposite of soft", "hard" can be reduced to one meaning, "difficult".
 
-If the opposite decision was made, to keep "difficult" and "hard" (meaning "opposite of soft"), then the word "soft" could have been eliminated from Ungglish. But "difficult" is a long word, so removing it (or downgrading it to the extended vocabulary) makes Ungglish shorter.
-
-Sometimes, eliminating meanings is difficult and there are different tradeoffs. Consider the word sun/son. In Ungglish these two words much be considered a single word, since they sound the same and must be spelled "sun". How do we split these words apart? I considered using 
-
- there are difficult decisions 
+If the opposite decision was made, to keep "difficult" and "hard" (meaning "opposite of soft"), then the word "soft" could have been eliminated from Ungglish. But "difficult" is a long word, so removing it makes Ungglish shorter.
 
 ### Separated affix senses ###
 
@@ -172,37 +174,21 @@ In Ungglish, these meanings are expressed in several separate ways:
 
 ### Simplified pronoun system ###
 
-Ungglish 
+Ungglish's pronoun table balances similarity to English against simplicity. Therefore, most common pronouns sound the same in Ungglish as English, while less common ones have been changed to fit a pattern. In particular, "I", "me", "you", "it", "he", "she", and "they" all sound the same.
 
-### Wuniezd (groopt) wurds ###
+| English     | Subject | Object     | Possessive |
+|-------------|---------|------------|------------|
+| I/me/my     | ie      | mi         | miz        |
+| We/us/our   | wi      | us         | us'z       |
+| you/your    | yoo     | yoo        | yooz       |
+| it/its      | it      | it         | it'z       |
+| he/him/his  | hi      | him        | hiz        |
+| she/her/her | shi     | shim       | shiz       |
+| they/them/their | they | theym     | theyz      |
 
-Ungglish ben intenda t' ben transmapa
+In addition, Ungglish has a gender-neutral pronoun _zey_/_zeym_ which is meant to resemble the word "they", the word most often used for gender-neutrality in English.
 
-Meny, meny wurds in Engglish hava simpul meenij's wich can be ex.prest bie puuting twen or tur uther wurds withly. Fer ex.ampul, the wurds "speak" an "talk" meena the saem ting, having oenly dessaem syntax: "I speak English" meena "I talk in English" or "I can talk in English". So Ungglish re.plaesa "speak" with "talk-in", speld "tok-in-a". Yoo can seya "I toka in Engglish" or "I tokina Engglish."
-
-'Nother ex.ampul sa the Engglish wurds "kick" and "slap". Ol this wurds meena "hit", but with dessaem bodypars. Ungglish re.moova this wurds an ueza in.sted "leg-hit" or "foot-hit", "hand-hit".
-
-Uther ex.ampuls:
-- job: peydwurk (peyd work)
-- girl: galkid ("female kid")
-- probably: hiechansly ("high-chance-ly")
-- town: smolcity (we canda sey
-
-Olso, en ungglish yoo can groopa action wurd with itself. Ex.ampuls incluuda "wurkwurk" ("project" in Engglish), "looklooka" ("watch" in Engglish), an "maekmaeka" (develop). The r'peetij meena thut the action sa dood over piriud.
-
-### Reguelernes ###
-
-Tinka 'bout twen re.laet'd wurds
-
-think, thought (something which is thought)
-
-
-washing machine, dishwasher
-
-If you know 
-
-
-the relaetionship be.tween twen r'laet'd wurds sa nonpredict'bl, then wun havta lern the twen wurds 
+The possessive is marked with 'z, where the apostrophe represents a short "uh" sound. Possessive nouns are formed the same way, e.g. the animul'z legs = the animal's legs. The apostrophe adds an extra syllable (except after a vowel), which makes the Ungglish possessive sound different than the plural marker so that listeners can more easily tell plurals and possessives apart.
 
 Eezymor gramur
 --------------
@@ -234,14 +220,17 @@ Free online lessons will be provided that teach sounds, words, and sentences, wi
 
 ### A clear progression of study ###
 
-Ungglish dictionaries divide word roots into three groups by importance:
+Ungglish word roots are divided into three categories:
 
-1. Minimal roots (based on [Minimal English](http://hrc.anu.edu.au/sites/hrc.anu.edu.au/files/u78/Global_English_Minimal_English%20position%20papers.pdf)). It is possible to express most ideas with minimal words only, but it is often difficult to do so.
-2. Normal roots and affixes: enough word roots to easily translate almost any idea from English to Ungglish.
-3. Extended roots: unnecessary roots such as "cold" and "girl" that can already be expressed with compound words (e.g. cold = des-hot, girl = shi-kid). The extended words are taught after the normal words, mainly to help people prepare to learn full English, but if a community of fluent Ungglish speakers develops then they will, we can expect also use extended words among themselves. **Note:** a small number of words, such as "bad" and "bed", are classified as normal words even though they have a synonym (bad <=> des-good, bed <=> sleep-pad), because they are short and used often, or because the synonym is well-known internationally. **Note:** do you speak Interlingua? You could help pick extended roots based on their presence in Interlingua.
+1. Minimal roots: less than 200 essential words for rudimentary communication
+2. Basic roots: about 1000 more roots, which is sufficient for expressing almost any idea easily. You'll be fluent in under six months if you learn 10 roots per day and practice speaking and writing increasingly complicated thoughts.
+3. Extended roots: about 1000 more roots to assist communication with English speakers. These include words like _cold_, which is written _deshot_ in the basic vocabulary, _girl_ (= _shikid_), and _ship_ (= _bigboet_). Extended roots are not needed for communicating in Ungglish, but may help to shorten sentences. A neat thing is that a computer will be able to automatically transform web pages and text files to eliminate (or introduce) extended roots.
 
+Ungglish courses should teach the minimal roots first, then use an immersion teaching style to help the student reach fluency with the basic roots, then teach the extended roots, before finally moving on to teach English.
 
+**Note:** a small number of words, such as "bad", are classified as basic words even though they have a synonym (bad <=> des-good), because they are short and used often, or because the synonym is well-known internationally. **Note:** do you speak Interlingua? You could help pick extended roots based on their presence in Interlingua.
 
+### ... ###
 
 
 
