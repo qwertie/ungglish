@@ -180,7 +180,7 @@ Ungglish's pronoun table balances similarity to English against simplicity. Ther
 
 | English     | Subject | Object     | Possessive |
 |-------------|---------|------------|------------|
-| I/me/my     | ie      | mi         | miz        |
+| I/me/my     | ie      | mi         | mie        |
 | We/us/our   | wi      | us         | us'z       |
 | you/your    | yoo     | yoo        | yooz       |
 | it/its      | it      | it         | it'z       |
