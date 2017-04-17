@@ -8,13 +8,14 @@ Ungglish is like English, but it's not English. It's dramatically easier to lear
 - Small vocabulary: By eliminating synonyms, re-using existing English affixes and introducing new ones, you can say more with fewer root words. "Word group" suffixes help students understand sentences containing unfamiliar words.
 - Simple & Regular: No irregular plurals, virtually no irregular past tenses. Pronouns are partially regularized, and verbs have only two conjugationsl 
 - Consistent & Predictable: Unlike in English, most patterns of word formation and grammar are universal in Ungglish. Affixes are productive: they can form new words.
-- Clear & unambiguous: Most word roots have only one meaning.
-- Avoids fixed phrases: "take out" means "kill"? "put up with" means "tolerate"? Not in Ungglish.
-- Avoids idioms: English has thousands of idioms; Ungglish discourages them. Phrases like "hot potato", "at the drop of a hat", "piece of cake" and "keep something at bay" are meaningless in Ungglish. Only phrases with an obvious meaning, such as "a blessing in disguise" or "to make a long story short" can be used.
+- One meaning for one word: Many English words have several meanings. Not in Ungglish. "Hard" can only mean "
+- One word for one meaning: "take out" means "kill"? "put up with" means "tolerate"? Not in Ungglish, where each word can be understood independently of the others.
+- Avoids idioms: English has thousands of idioms; Ungglish discourages them. Phrases like "hot potato", "at the drop of a hat", "piece of cake" and "keep something at bay" are meaningless in Ungglish. Only phrases with an obvious meaning, such as "a blessing in disguise" or "to make a long story short" can be directly translated.
 - More obvious structure: It is easier to pick apart Ungglish sentences and understand their grammar. Endings like -ing have fewer grammatical functions.
 - Flexible & expressive: There are often as many ways to express a thought in Ungglish as in English, and often more ways.
 - Slightly simpler phonetics: Ungglish eliminates one consonant and two vowels from English.
 - Computer-friendly: Compared to English, Ungglish could be deciphered and translated to other languages more easily (if we can attract computational linguists to the project). It should be possible to create a tool to translate Ungglish to English automatically, and we hope to make tools to partially automate the translation process from English to Ungglish.
+- A secret language: Ungglish is more compact and less well-known than Pig Latin, so English speakers may enjoy using it as a "secret language" among themselves.
 
 Introduction to Ungglish
 ========================
