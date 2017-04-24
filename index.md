@@ -176,7 +176,7 @@ In Ungglish, these meanings are expressed in several separate ways:
 
 ### Simplified pronoun system ###
 
-Ungglish's pronoun table balances similarity to English against simplicity. Therefore, most common pronouns sound the same in Ungglish as English, while less common ones have been changed to fit a pattern. In particular, "I", "me", "you", "it", "he", "she", and "they" all sound the same.
+Ungglish's pronoun table balances similarity to English against simplicity. Therefore, the most common pronouns sound the same in Ungglish as English, while less common ones have been changed to fit a pattern. Notably, "I", "me", "my", "you", "it", "he", "she", and "they" all sound the same.
 
 | English     | Subject | Object     | Possessive |
 |-------------|---------|------------|------------|
