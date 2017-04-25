@@ -1,0 +1,26 @@
+# This is the configuration file for Jekyll, which is a program "built in" 
+# to GitHub that transforms files for web output (e.g. Markdown to HTML).
+# The Jekyll documentation is useless for noobs; try this tutorial instead:
+# https://www.andrewmunsell.com/tutorials/jekyll-by-example/tutorial
+exclude: [Src, Lib, Visual Studio Integration]
+
+# Jekyll settings
+markdown: kramdown
+encoding: UTF-8
+highlighter: rouge
+paginate: 8
+paginate_path: "blog/page:num"
+permalink: /:categories/:year/:title.html
+safe: true
+lsi: false
+
+# User-defined settings
+title:       "Ungglish"                  # shown in large text
+tagline:     "The Eezi Inglish"          # shown in title bar beside title
+description: "Mor eezi tu lerna. Mor fun." # shown under the title
+url:     "http://ungglish.loyc.net"      # Used by the Atom feed
+baseurl: ""                              # grep "site.baseurl" to see how it is used
+github:
+  repo:  https://github.com/qwertie/ungglish # "GitHub project" link on sidebar
+  user: qwertie                          # For comments system (not Hyde)
+  project: ungglish                      # For comments system (not Hyde)

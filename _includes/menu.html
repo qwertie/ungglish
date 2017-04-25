@@ -1,0 +1,35 @@
+<!--Note: sidebars inside posts (e.g. tables of contents) are defined in res/css/custom.css-->
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}/">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="menu">
+      <a class="menu-item{% if page.url == site.url %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null and node.layout == "section" %}
+            <a class="menu-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endfor %}
+
+      <a class="menu-item" href="{{ site.baseurl }}/blog">Blog</a>
+      <a class="menu-item" href="https://github.com/qwertie/ungglish/issues">Post Questions &amp; Ideas</a>
+      <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub Repo</a>-->
+      <a class="menu-item" href="https://github.com/qwertie/ungglish/blob/master/dictionary.les3">Dictionary [raw]</a>
+    </nav>
+  </div>
+<p></p>
+</div>
