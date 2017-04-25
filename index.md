@@ -1,5 +1,5 @@
 ---
-layout: section
+layout: article
 title: Home
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Home
+title: Orthography
 ---
 
 Ungglish Writing System
