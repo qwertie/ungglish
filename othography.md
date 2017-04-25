@@ -1,3 +1,8 @@
+---
+layout: section
+title: Home
+---
+
 Ungglish Writing System
 =======================
 

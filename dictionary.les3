@@ -159,7 +159,9 @@ Top5000 = {
 	@pr @o mi     = me
 	@n @pl peepul = (people, @rare folk)
 	//@1346 @_    _ = folk	// n	28698
-	@v    taeka   = take
+	@v    taeka   = take        // 1. "take" or "bring by force" (the other person may be willing) 2. consume time or resources
+	@v    taekouta = "take out"
+	@engerror taeka => bringa
 	@adv  out     = out
 	@prep intu    = into
 	@adv  just    = just // simply
@@ -627,7 +629,7 @@ Top5000 = {
 	@445 @adj  (largj, @ext maejer) = major // j
 	@446 @adv `sum-tiem-ly` = sometimes // r
 	@error @v  re.quier    => needa    // v
-	@448 @prep @adv `'long` = along	// i
+	@448 @prep @adv `'long` = along	// i   (on a path beside something or someone)
 	@449 @n    `maek-maek-ij` = development // n
 	@error @n  de.velupment => `maekij` // n
 	@450 @pr @pd theymselfs = themselves // p
@@ -1244,7 +1246,7 @@ Top5000 = {
 	@960 @n   (`poe-chooz-ens`, `poe-chois`) = candidate	// n	43251
 	@960 @n   (`poe-prezident`, `poe-chois`) = candidate	// n	43251
 	@961 @adj   top           = top	// j	41484
-	@962 @_    `pr'dus-ment`  = production	// n	42052
+	@962 @n    `pr'dus-ens`   = production	// n	42052
 	@963 @v    treeta         = treat	// v	40264  (to administer to / treat a disease / handle socially)
 	@964 @n    trip           = trip	// n	40423
 	@965 @n   (`op-morn`, `des-morn`, @ext eevning) = evening	// n	40881
@@ -1944,7 +1946,7 @@ Top5000 = {
 	@1631 @n   (`hot-levul`, @ext temperture) = temperature	// n	23111
 	@1632 @_    _ = surprise	// n	22275
 	@1633 @_    _ = poll	// n	24009
-	@1634 @_    _ = proposal	// n	22830
+	@1634 @n   `pr'proez-dee` = proposal	// n	22830
 	@1635 @_    _ = consequence	// n	23307
 	@1637 @_    _ = breath	// n	24668
 	@1638 @_    _ = sight	// n	22878
@@ -2015,7 +2017,7 @@ Top5000 = {
 	@1703 @_    _ = e-mail	// n	22467
 	@1704 @_    _ = generate	// v	22213
 	@1705 @_    _ = anymore	// r	21771
-	@1706 @_    _ = propose	// v	21691
+	@1706 @_    pr'proeza = propose	// v	21691
 	@1707 @_    _ = thinking	// n	21663
 	@1708 @_    _ = possibly	// r	20953
 	@1709 @_    _ = trend	// n	21894
@@ -3421,7 +3423,7 @@ Top5000 = {
 	@3097 @_   _ = publisher	// n	10282
 	@3098 @_   _ = strengthen	// v	10159
 	@3099 @_   _ = French	// n	9845
-	@3100 @_   _ = proposed	// j	10288
+	@3100 @adj `pr'poez-d` = proposed	// j	10288
 	@3101 @_   _ = myth	// n	10161
 	@3102 @_   _ = sophisticated	// j	9886
 	@3103 @_   _ = cow	// n	10032
@@ -5416,6 +5418,7 @@ Top5000 = {
 	@n    `end-dot` = period
 	@n    `bother-iv` = agitant
 	@n    `stuf-ig` = gunk
+	@n   (`soon-shi-spous`, @ext `soon-wief`) = "bride-to-be"
 }
 
 Affixes = {
@@ -5473,7 +5476,7 @@ Affixes = {
 
 	// General affixes
 	@prefix non[n => n, adj => adj] = "non-": "Ie lieka nonhuemam anims."
-	@prefix un[v => v] = "undo; not done": "Ie wisha ie cuud un-seea that uncleend room."
+	@prefix un[v => v, adj => adj] = "undo; not done": "Ie wisha ie cuud un-seea that uncleend room."
 	@prefix des = "opposite of": "Shiz herr is deslong."
 	@prefix mis = "incorrectly": ""
 	@prefix dis = "in many directions": "The p'lis disshootda teer-gas tu maekdisgoea the crowd."

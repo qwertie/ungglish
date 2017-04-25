@@ -1,9 +1,16 @@
+---
+layout: section
+title: Home
+---
+
 Hero
 ----
 
+Learning English in a classroom can take many years, but you can be fluent in Ungglish in less than a year.
+
 Ungglish is like English, but it's not English. It's dramatically easier to learn, so students of English can make progress faster and have more fun.
 
-- 10 times easier than English
+- About 8 times easier than English
 - Phonetic: After learning the rules, you can tell how any Ungglish word is pronounced by looking at it.
 - Small vocabulary: Ungglish has much fewer word roots than English. "Word group" suffixes help students understand sentences having certain kinds of unfamiliar words.
 - Simple & Regular: No irregular plurals, virtually no irregular past tenses. Pronouns are partially regularized, and verbs have only two conjugations.
