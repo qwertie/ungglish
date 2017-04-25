@@ -72,9 +72,16 @@ Plan for Ungglish
     politology = political science, toothhology (or bietsterology) = dental science
   - "Ideology" is not a field of work or study, so I'm not sure what to do with it. Spell it 
     "idee.olujy" to separate it visually from "ologys"?
-- The item most associated with a field, or that is studied by the field, takes the suffix -y:
-  his.tory = history, theery = theory, stat.isty = statistic, lojy = logic, 
-  ethy = ethic (ethical practice, as in "work ethic"), 
+- That which is studied by a scientific field takes the suffix -y: syky = psyche, 
+  eeco-y = ecosystem, s'cie'ty = society. I chose this suffix, of course, because it makes 
+  a couple of "hits" with existing words. However, in general "y" is a bad suffix because 
+  it is already used by so many words, both as part of the root (family, redy) and as part
+  of a suffix (only, oen-dee = property). So for the "-ics" words I chose a new suffix 
+  "im", which is similar to the existing suffix "um" for substances (as in heelium, lithhium, 
+  calcium, carbum...). "im" is a very general suffix that means "tangible or intangible 
+  thing". It marks a canonical "object" associated with a field, so lojim = logic, 
+  sta.tistim = statistic, mathim = mathematical object, and theerim = theorem (because it 
+  sounds too much like theorem to have any other meaning).
 - Popular roots in English like "phys", "polit", "eth", "kem" exist in Ungglish but cannot be 
   used by themselves because they are not assigned any part of speech.
   - "syk" is in the extended vocabulary; "miendology" is preferred over "sykology"
@@ -98,44 +105,44 @@ Plan for Ungglish
 
 So the words in Ungglish are currently planned as follows:
 
-| English Field | Field        | Adjective     | Adverb          | Practitioner |
-|---------------|--------------|---------------|-----------------|------------- |
-| psychology    | miendology   | miendologic   | miendologically | miendologist |
-| theology      | feithology   | feithologic   | feithologicly   | feithologist / reverend |
-| biology       | bieology     | bieologic     | bieologicly     | bieologist  |
-| zoology       | animology    | animologic    | animologicly    | animologist |
-| archaeology   | archaeology  | archaeologic  | archaeologicly  | archaeologist |
-| criminology   | criemology   | criemologic   | criemologicly   | criemologist |
-| sociology     | socie'tology | socie'tologic | socie'tologicly | socie'tologist |
-| anthropology  | cultureology | cultureologic | cultureologicly | cultureologist |
-| ecology       | eecology     | eecologic     | eecologicly     | eecologist |
-| geology       | jeeology     | jeeologic     | jeeologicly     | jeeologist |
-| physics       | phyzology    | phyzologic    | phyziologicly   | phyzologist |
+| English Field | Field        | Adjective     | Adverb          | Practitioner | Thing |
+|---------------|--------------|---------------|-----------------|------------- |-------|
+| psychology    | miendology   | miendologic   | miendologically | miendologist | miend / syky (mind) |
+| theology      | feithology   | feithologic   | feithologicly   | feithologist / reverend | feithy (religion) |
+| biology       | bieology     | bieologic     | bieologicly     | bieologist    | bieo-y (biology) |
+| zoology       | animology    | animologic    | animologicly    | animologist   | anim (animal) |
+| archaeology   | archaeology  | archaeologic  | archaeologicly  | archaeologist | archaey (that which archaeologist study) |
+| criminology   | criemology   | criemologic   | criemologicly   | criemologist  | criem |
+| sociology     | s'cie'tology | s'cie'tologic | s'cie'tologicly | s'cie'tologist | s'cie'ty (society) |
+| anthropology  | cultureology | cultureologic | cultureologicly | cultureologist | culture |
+| ecology       | eecology     | eecologic     | eecologicly     | eecologist | eeco-y / eeco-system |
+| geology       | jeeology     | jeeologic     | jeeologicly     | jeeologist | jeeo-y (that which geogists study) |
+| physics       | phyzology    | phyzologic    | phyziologicly   | phyzologist | phyz-y (the physical universe) |
 
 | English Field | Field         | Adjective     | Adverb         | Practitioner | Thing   |
 |---------------|---------------|---------------|----------------|------------- | ------- |
 | psychiatrics  | miendics      | miendic       | miendicly      | miendicist   | miend   |
-| ethics        | ethics        | ethic         | ethicly        | ethicist     | ethy (ethic) |
+| ethics        | ethics        | ethic         | ethicly        | ethicist     | ethim (ethic) |
 | politics      | po.litics     | po.litic      | po.liticly     | po.liticist (politician) | N/A    |
-| statistics    | sta.tistics   | statistical   | statistically  | statisticist (statistician) | sta.tisty (statistic) |
-| mathematics   | mathics       | mathic        | mathicly       | mathicist (mathematician) | mathy (mathematical object) |
-| electronics   | e.lectrics    | e.lectric     | e.lectricly    | e.lectricist  | e.lectry (electric device) |
-| mechanics     | me.ckanics (the applied practice of mechanisms) | me.ckanic | me.ckanicly | me.ckanicist (professional in meckanics) | me.ckany (machanism) |
+| statistics    | sta.tistics   | sta.tistical  | sta.tisticly   | sta.tisticist (statistician) | sta.tistim (statistic) |
+| mathematics   | mathics       | mathic        | mathicly       | mathicist (mathematician) | mathim (mathematical object) |
+| electronics   | e.lectrics    | e.lectric     | e.lectricly    | e.lectricist  | e.lectrim (electric device) |
+| mechanics     | me.ckanics (the applied practice of mechanisms) | me.ckanic | me.ckanicly | me.ckanicist (professional in meckanics) | me.ckanim (machanism) |
 | law           | lawics        | lawic         | lawicly         | lawicist (lawyer)         | law   |
 | engineering   | en.jinics     | en.jinic      | en.jinicly (engineering-wise) | en.jinicist (Note: "enjineer" should be someone that works specifically with engines) | N/A  |
 | dentistry     | toothhics     | toothhic      | toothhicly      | toothhicist (dentist)     | tooth |
-| plumbing      | piepics       | piepic        | piepicly        | piepicist (plumber)       | piepy (plumbing object) |
-| logic         | lojics        | lojic         | lojicly         | lojicist (logician)       | lojy (logic) |
-| history       | his.torics    | his.toric     | his.toricly     | his.toricist (historian)  | his.tory (history) |
+| plumbing      | piepics       | piepic        | piepicly        | piepicist (plumber)       | piep |
+| logic         | lojics        | lojic         | lojicly         | lojicist (logician)       | lojim (logic) |
+| history       | his.torics    | his.toric     | his.toricly     | his.toricist (historian)  | his.torim (history) |
 | chemistry     | kemics        | kemic         | kemicly         | kemicist (chemist; kemist is also allowed) | kemim (chemical) |
-| medicine      | medics        | medic         | medicly         | medicist (doctor)         | med (medication) |
+| medicine      | medics        | medic         | medicly         | medicist (doctor)         | med (medication) / medim (medical thing) |
 | botany        | plantics      | plantic       | planticly       | planticist (botanist)     | plant |
 | theory        | thheerics     | thheeric      | thheericly      | theericist (theoretician) | theerim (a theorem) |
 | practice      | practics      | practic       | practicly       | practicist (practitioner) | practim (a practice, i.e. something somebody does) |
 | reporting     | re.portics    | re.portic     | re.porticly     | re.porticist (reporter)   | re.port |
 | journalism    | jurnulics     | jurnulic      | jurnulicly      | jurnulicist / jurnulist   | jurnul |
-| philosophy    | phi.los'phics | phi.los'phic  | phi.los'phicly  | phi.los'phicist / phi.los'pheer | phi.los'phim |
-| architecture  | arkitectics   | arkitectic    | arkitecticly    | architecticist (architect) | architectim (completed architecture) | 
+| philosophy    | phi.los'phics | phi.los'phic  | phi.los'phicly  | phi.los'phicist / phi.los'pheer | phi.los'phim (a philosophy) |
+| architecture  | arkitectics   | arkitectic    | arkitecticly    | architecticist (architect) | architectim (a work of architecture) |
 | astonomy      | astru.nomics  | astru.nomic   | astru.nomicly   | astru.nomicist (astronomer) | astru.nomim (celestial object) |
 | agriculture   | agrics        | agric         | agricly         | agricist / farmeer        | N/A |
 
