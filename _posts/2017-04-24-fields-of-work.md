@@ -1,6 +1,7 @@
-
-Fields and their practitioners:
--------------------------------
+---
+title: "Fields of work and science, and their practitioners"
+layout: post
+---
 
 Let's review the patterns in English fields of science and work:
 
@@ -56,7 +57,8 @@ Let's review the patterns in English fields of science and work:
 | N/A         | janitorial    | N/A             | janitor       |
 | service     | service       | N/A             | service worker |
 
-### Plan for Ungglish
+Plan for Ungglish
+-----------------
 
 - Use "-ics", "-ic", "-icist" for fields of practice, of math, or of philosophy. "-ics" can also refer to emergent behavior (physics, politics, dynamics).
   - By keeping the "-ic" suffix rather than "-icul" or "-icl", we favor simplicity against the need to resemble English. It's not clear whether this is the best decision, but it's easy to remember since -ic is the normal adjectival ending. Perhaps -icul or -icl should be allowed interchangably with -ic.
@@ -94,7 +96,7 @@ Let's review the patterns in English fields of science and work:
   "as-trOn-om" in "astronomy" to "as-truh-nOm" in "astronomical". For Ungglish I have chosen only a 
   single version of each word root.
 
-So the words in Ungglish are as follows:
+So the words in Ungglish are currently planned as follows:
 
 | English Field | Field        | Adjective     | Adverb          | Practitioner |
 |---------------|--------------|---------------|-----------------|------------- |
