@@ -1,35 +1,36 @@
 <!--Note: sidebars inside posts (e.g. tables of contents) are defined in res/css/custom.css-->
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}/">
-          {{ site.title }}
-        </a>
-      </h1>
-      <p class="lead">{{ site.description }}</p>
-    </div>
-
-    <nav class="menu">
-      <a class="menu-item{% if page.url == site.url %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null and node.layout == "section" %}
-            <a class="menu-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-        {% endif %}
-      {% endfor %}
-
-      <a class="menu-item" href="{{ site.baseurl }}/blog">Blog</a>
-      <a class="menu-item" href="https://github.com/qwertie/ungglish/issues">Post Questions &amp; Ideas</a>
-      <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub Repo</a>-->
-      <a class="menu-item" href="https://github.com/qwertie/ungglish/blob/master/dictionary.les3">Dictionary [raw]</a>
-    </nav>
+<nav>
+  <div class="website-menu" style="float: left;">
+    <a href="{{ site.baseurl }}{{ site.t[page.lang].homeurl }}">
+      <div class="site-name logo">{{ site.title }}</div>
+      <div class="site-tagline">{{ site.t[page.lang].tagline }}</div>
+    </a>
   </div>
-<p></p>
-</div>
+  {% comment %}
+  Generate the top bar with site name, tagline, and translations of current page
+  {% endcomment %}
+  <div class="lang-bar">
+    {% assign langversions = site.pages | where:"lref",page.lref | sort:"lang" %}
+    {% for version in langversions %}
+      <a href="{{ version.url }}" class="{{ version.lang }}">{{ version.lang }}</a>
+    {% endfor %}
+  </div>
+  <div class="menu">
+    {% comment %}
+      The code below dynamically generates a list of section links
+      with language matching the current page.
+    {% endcomment %}
+
+    {% assign section_list = site.pages | where:"lang",page.lang | sort:"menuorder","last" %}
+    {% for node in section_list %}
+      {% if node.layout == "section" %}
+          <a{% if page.url == node.url %} class="active"{% endif %} href="{{ node.url }}">{{ node.title }}</a>
+      {% endif %}
+    {% endfor %}
+
+    <a href="https://github.com/qwertie/ungglish/issues">{{ site.t[page.lang].issueslink }}</a>
+    <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub Repo</a>-->
+    <a href="https://github.com/qwertie/ungglish/blob/master/dictionary.les3">Dictionary [raw]</a>
+    <a href="{{ site.baseurl }}/blog">Blog</a>
+  </div>
+</nav>

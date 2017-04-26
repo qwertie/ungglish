@@ -1,18 +1,36 @@
+
+/* LANGUAGE BAR */
+.lang-bar   { text-align: right; }
+/* Highlight the current language */
+.zh:lang(zh), .en:lang(en), .hi:lang(hi), .es:lang(es), .ar:lang(ar), 
+.ms:lang(ms), .ru:lang(ru), .fr:lang(fr), .pt:lang(pt), .bn:lang(bn), 
+.de:lang(de), .ha:lang(ha), .pa:lang(pa), .ja:lang(ja), .fa:lang(fa),
+.it:lang(it), .tl:lang(tl), .eo:lang(eo), .ia:lang(ia), .un:lang(un) {
+    font-size: 1em;
+}
+/* Replace language codes with icons */
+.en::before {content:url(/res/flag/icon-en.png); margin:0; padding:0;} .en {font-size:0;}
+.es::before {content:url(/res/flag/icon-es.png); margin:0; padding:0;} .es {font-size:0;}
+.un::before {content:url(/res/flag/icon-un.png); margin:0; padding:0;} .un {font-size:0;}
+.eo::before {content:url(/res/flag/icon-eo.png); margin:0; padding:0;} .eo {font-size:0;}
+
+
 .tagline {
   font-size: 1.3rem;
   font-style: italic;
   font-family: serif;
   color: #888;
-  // I wanted the tagline and date to be shown on the same line but this
-  //Display: run-in; // only works in IE so I'll nest tagline in post-date
+  /* I wanted the tagline and date to be shown on the same line but this */
+  /* display: run-in; /* only works in IE so I'll nest tagline in post-date */
 }
 
 /* A note on the right side */
-.sidebox {
+aside, .sidebox {
   border: 1px dotted rgb(127, 127, 127);
-  padding: 4px 3px 4px 6px; // top right bottom left
+  padding: 4px 3px 4px 6px; /* top right bottom left */
   min-width: 100px ! important;
   float: right ! important;
+  clear: right;
   font-size: 90%;
   margin-top: 1px;
   margin-bottom: 1px;
@@ -21,7 +39,24 @@
   max-width: 50%;
   width: 35%;
 }
-.sidebox ul { padding:0em 0em 0em 1.3em; margin:0em; } /* compact, used for TOC */
+aside, .sidebox ul { padding:0em 0em 0em 1.3em; margin:0em; } /* compact, used for TOC */
+
+/* A note on the right side */
+aside, .sidebox {
+  border: 1px dotted rgb(127, 127, 127);
+  padding: 4px 3px 4px 6px; // top right bottom left
+  min-width: 100px ! important;
+  float: right ! important;
+  clear: right;
+  font-size: 90%;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 6px;
+  visibility: visible;
+  max-width: 50%;
+  width: 35%;
+}
+aside ul, .sidebox ul { padding:0em 0em 0em 1.3em; margin:0em; } /* compact, used for TOC */
 
 /* side-by-side elements */
 .sbs {
@@ -50,13 +85,4 @@ a[href*="//localhost"]:after {
   margin: 0;
 }
 
-.site-title {
-   color: white;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-   /*-webkit-text-stroke: 1px black;*/
-}
+

@@ -1,0 +1,10 @@
+main, article, .content {
+    padding: .5em .2em .5em .5em; /*TRBL*/
+}
+
+nav {
+    height: auto;
+}
+nav .logo {
+    height: auto;
+}

@@ -1,0 +1,36 @@
+/* Fix stupid decisions (24px-high menu) in min.css */
+/*nav, .nav {
+  background:#000;
+}
+.nav,.nav .current,.nav a:hover{color:#fff}
+.nav {height:auto;padding:11px 0 0px}
+.nav a{color:#aaa;padding-right:1em;position:relative}
+.nav .pagename{font-size:22px}
+
+box-sizing: border-box;
+*/
+/*
+h1 {
+  margin: 0.2em 0;
+  border-bottom: 5px solid;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+*/
+
+.site-name {
+    font-size: 1.2em;
+}
+.site-tagline {
+    font-size: 0.9em;
+    font-style: italic;
+}
+.lang-bar {
+    text-align: right;
+	font-weight: bold;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Rubik', sans-serif;
+}

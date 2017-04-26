@@ -1,4 +1,4 @@
-<head>
+﻿<head>
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -15,18 +15,23 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/hyde.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/custom.css">
-  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Berkshire+Swash' type='text/css'>
-{% if page.stripes %}
-  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/stripes.css">
-{% endif %}
-  
-  <!-- Icons -->
-  <link rel="shortcut icon" href="{{ site.baseurl }}/res/favicon.ico">
+  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/picnic.min.css" type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/picnic-fix.css" type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/menu.css" type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/syntax.css" type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/custom.css" type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/res/css/site-specific-styles.css" type="text/css">
 
-  <!-- RSS -->
+  <!-- Icon, Fonts, RSS -->
+  <link rel="shortcut icon" href="{{ site.baseurl }}/res/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  {% comment %}
+    Tell search engines which pages are alternate versions of the current page
+  {% endcomment %}
+  {% assign langversions=site.pages | where:"lref", page.lref | sort: 'lang' %}
+  {% for page in langversions %}
+  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+  {% endfor %}
 </head>

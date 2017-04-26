@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{% if page.lang %}{{ page.lang }}{% else %}en-us{% endif %}">
   {% include head.html %}
 <body>
   {% include menu.html %}
 
-<div class="content container" id="content">
+<main class="content" id="content">
   {{ content }}
-</div>
+</main>
 <div class="content container">
   {% include comments.html %}
 </div>
@@ -63,7 +63,7 @@
 		toc.appendChild(buildTOC_ul(selector));
 		contentElement.insertBefore(toc, before);
 	}
-	var _post_ = $get("#post")||$get("#content");
+	var _post_ = $get("article")||$get("main")||$get("#post")||$get("#content");
 	addTOC(_post_, _post_.firstChild.nextSibling.nextSibling);
 	//]]>
 	</script>

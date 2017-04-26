@@ -1,12 +1,15 @@
 ---
 layout: article
 title: Home
+lref: Home
+lang: en
+menuorder: 0
 ---
 
 Hero
 ----
 
-Learning English in a classroom can take many years, but you can be fluent in Ungglish in less than a year.
+Learning English in a classroom can take many years, but a student can be fluent in Ungglish in less than a year.
 
 Ungglish is like English, but it's not English. It's dramatically easier to learn, so students of English can make progress faster and have more fun.
 

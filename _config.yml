@@ -16,11 +16,42 @@ lsi: false
 
 # User-defined settings
 title:       "Ungglish"                  # shown in large text
-tagline:     "The Eezi Inglish"          # shown in title bar beside title
-description: "Mor eezi tu lerna. Mor fun." # shown under the title
+tagline:     "The Eezi Inglish"
+#description: "Mor eezi tu lerna. Mor fun."
 url:     "http://ungglish.loyc.net"      # Used by the Atom feed
 baseurl: ""                              # grep "site.baseurl" to see how it is used
 github:
   repo:  https://github.com/qwertie/ungglish # "GitHub project" link on sidebar
   user: qwertie                          # For comments system (not Hyde)
   project: ungglish                      # For comments system (not Hyde)
+
+# Translations of header/footer elements
+t:
+  en:
+    homeurl: "/"
+    tagline: "The Eezi Inglish"
+    issueslink: "Questions? Ideas?"
+  es:
+    homeurl: "/home-es"
+    tagline: "El Inglés Fácil"
+    issueslink: "Pregunas? Ideas?"
+  zh:
+    homeurl: "/home-zh"
+    tagline: "比英语更容易"
+    issueslink: "Questions? Ideas? [EN]"
+  fr:
+    homeurl: "/home-fr"
+    tagline: "L'anglais facile"
+    issueslink: "Questions? Idées? [EN]"
+  tl:
+    homeurl: "/home-tl"
+    tagline: "Mas madali na English"
+    issueslink: "Tanong? Ideya? [EN]"
+  eo:
+    homeurl: "/home-eo"
+    tagline: "La angla pli facila"
+    issueslink: "Demandoj? Ideoj?"
+  un:
+    homeurl: "/home-un"
+    tagline: "The Eezi Inglish"
+    issueslink: "Askuns's? Ie.dias?"
