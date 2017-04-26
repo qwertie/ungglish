@@ -8,3 +8,6 @@ nav {
 nav .logo {
     height: auto;
 }
+nav {
+  position: absolute;
+}
