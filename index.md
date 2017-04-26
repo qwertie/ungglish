@@ -14,6 +14,7 @@ Learning English in a classroom can take many years, but a student can be fluent
 Ungglish is like English, but it's not English. It's dramatically easier to learn, so students of English can make progress faster and have more fun.
 
 - About 8 times easier than English
+- Similar: When used in a certain way, native English speakers can understand spoken and written Ungglish. The dictionary and Ungglish lessons will tell you which parts of Ungglish match (or are similar to) English.
 - Phonetic: After learning the rules, you can tell how any Ungglish word is pronounced by looking at it.
 - Small vocabulary: Ungglish has much fewer word roots than English. "Word group" suffixes help students understand sentences having certain kinds of unfamiliar words.
 - Simple & Regular: No irregular plurals, virtually no irregular past tenses. Pronouns are partially regularized, and verbs have only two conjugations.
@@ -23,10 +24,10 @@ Ungglish is like English, but it's not English. It's dramatically easier to lear
 - Avoids idioms: English has thousands of idioms; Ungglish discourages them. Phrases like "hot potato", "at the drop of a hat", "piece of cake" and "keep something at bay" are meaningless in Ungglish. Only phrases with an obvious meaning, such as "a blessing in disguise" or "to make a long story short" can be directly translated.
 - More obvious structure: It is easier to pick apart Ungglish sentences and understand their grammar. Endings like -ing have fewer grammatical functions.
 - Flexible & expressive: There are many ways to express a thought in Ungglish - including some ways that English won't allow.
-- Slightly simpler phonetics: Ungglish eliminates one consonant and two vowels from English.
+- Slightly simpler sounds: Ungglish eliminates one consonant and two vowels from English.
 - Computer-friendly: Compared to English, Ungglish could be deciphered and translated to other languages more easily (if we can attract computational linguists to the project). It should be possible to create a tool to translate Ungglish to English automatically, and we hope to make tools to partially automate the translation process from English to Ungglish.
 - Editor: editors & apps will be written to help you write Ungglish correctly and avoid misusing Ungglish words (help wanted).
-- A secret language: Ungglish is more compact and less well-known than Pig Latin, so English speakers may enjoy using it as a "secret language" among themselves.
+- A secret language: Instead of speaking it to be understood, you can speak it to confuse. Ungglish is more compact and less well-known than Pig Latin, so English speakers may enjoy using it as a "secret language" among themselves.
 
 **Note:** Why "Ungglish" with two Gs and not "Unglish"? Because Ungglish is phonetic, NG makes a sound like ng in "sing". Therefore, an extra G is required to add a G sound.
 

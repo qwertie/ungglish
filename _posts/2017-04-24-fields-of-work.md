@@ -32,6 +32,7 @@ Let's review the patterns in English fields of science and work:
 | mathematics | mathematical | mathematically | mathematician |
 | electronics | electronic   | electronically | electrical engineer / electrician |
 | mechanics   | mechanical   | mechanically   | mechanical engineer / mechanic |
+| economics   | economic     | economically   | economist    |
 
 ### 3. Others
 
@@ -81,7 +82,8 @@ Plan for Ungglish
   calcium, carbum...). "im" is a very general suffix that means "tangible or intangible 
   thing". It marks a canonical "object" associated with a field, so lojim = logic, 
   sta.tistim = statistic, mathim = mathematical object, and theerim = theorem (because it 
-  sounds too much like theorem to have any other meaning).
+  sounds too much like "theorem" to mean something else). Note that "logic" and "statistic" 
+  are _adjectives_ in Ungglish so we need a new noun to take their English meaning.
 - Popular roots in English like "phys", "polit", "eth", "kem" exist in Ungglish but cannot be 
   used by themselves because they are not assigned any part of speech.
   - "syk" is in the extended vocabulary; "miendology" is preferred over "sykology"
@@ -128,6 +130,7 @@ So the words in Ungglish are currently planned as follows:
 | mathematics   | mathics       | mathic        | mathicly       | mathicist (mathematician) | mathim (mathematical object) |
 | electronics   | e.lectrics    | e.lectric     | e.lectricly    | e.lectricist  | e.lectrim (electric device) |
 | mechanics     | me.ckanics (the applied practice of mechanisms) | me.ckanic | me.ckanicly | me.ckanicist (professional in meckanics) | me.ckanim (machanism) |
+| economics     | economics     | economic      | economically    | economicist               | economim / e.conumy (economy) |
 | law           | lawics        | lawic         | lawicly         | lawicist (lawyer)         | law   |
 | engineering   | en.jinics     | en.jinic      | en.jinicly (engineering-wise) | en.jinicist (Note: "enjineer" should be someone that works specifically with engines) | N/A  |
 | dentistry     | toothhics     | toothhic      | toothhicly      | toothhicist (dentist)     | tooth |

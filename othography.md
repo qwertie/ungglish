@@ -1,10 +1,7 @@
 ---
 layout: section
-title: Orthography
+title: Ungglish Writing System
 ---
-
-Ungglish Writing System
-=======================
 
 Ungglish is one-directionally phonetic: the pronunciation of every word 
 is determined by spelling and is easy to predict if you know all of
@@ -32,10 +29,10 @@ Consonants
 - G is pronounced as in go or get, except that GJ is pronounced as J. The
   GJ letter combination replaces GE in the original English word, e.g. 
   large => largj. Howeer, GJ does not appear after N, lest
-  the N sound change to NG. Also, it does it appear unless the E is deleted
+  the N sound change to NG, and it does not appear unless the E is deleted
   from the word; e.g. huge => huej (not "huegj") because the E is still 
   present.
-- NG is pronounced as a single sound (ŋ)
+- NG is pronounced as a single sound [ŋ]
 - C makes an S sound if it appears before E, I or Y; otherwise it makes a K 
   sound.
 - Y is a sort of I sound, except that it normally acts as a consonant 
@@ -75,7 +72,7 @@ considered distinct from U as some linguists prefer):
   like an American does, the word "fur" only contains two sounds, because 
   U is not a separate sound from R. Essentially, R and L can act as vowels 
   in the American pronunciation style (but are consonants in other words).
-- OO as in tool, which is not considered distinct from OO as in book
+- OO as in tool, which is not considered distinct from OO as in book.
   Alternate spelling: UU (used when the English word contains U and not O,
   or when the English word contains OU pronounced as in should)
 - OE as in toe. English speakers pronounce this as a diphthong, but it is
