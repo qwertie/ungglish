@@ -35,7 +35,7 @@ Now, about that word "like". I've heard linguists have a "joke":
 
 "Flies" can be a noun or a verb, and "like" can be a verb, a preposition or a conjunction. The first sentence exploits these facts to make your brain parse the second sentence incorrectly. The thing I want to stress is that if you are trying to learn English, each of these sentences can be confusing _on its own_.
 
-Ungglish injects clarity by forcing all verbs to end in "a" (pronounced "uh"). Meanwhile, nouns and adjectives are not allowed to end in "a" (except "-ia" which is used mainly for names of countries). Nouns ending in "a" are rare in English, but when they occur the "a" is changed to "ai", so a word like "camera" becomes "camerai" (or, use the compound word "seeor": a machine that sees.)
+Ungglish injects clarity by forcing all verbs to end in "a" (pronounced "uh"). Meanwhile, nouns and adjectives are not allowed to end in "a" (except "-ia" which is used mainly for names of countries). Nouns ending in "a" are rare in English, but when they occur the "a" is changed to <s>"ai"</s> [edited] "un", so a word like "camera" becomes "camerun" (or, use the compound word "seeor": a machine that sees.)
 
 The extra "a"s make Ungglish longer, but this is partly balanced out by removing the indefinite articles "a" and "an". I don't "have a car" in Ungglish; I "hava car". Having no indefinite article takes some getting used to, but it does not create a lot of ambiguity, and it helps remind Ungglish speakers that they are not, in fact, speaking English.
 
@@ -57,9 +57,9 @@ However, the word "that" is never a verb so our "-a" ending doesn't help.
 
 Instead, I noticed a funny thing. English speakers sometimes pronounce "that" at "thut" - but never when "that" is a pronoun, only when it is a conjunction. So in Ungglish I mandate "thut" permanently as the only correct pronounciation of the conjunction "that":
 
-> That Jill sa never heer. 
+> That Jill bi never heer. 
 
-> Thut Jill sa never here sa bothering mi.
+> Thut Jill bi never here bi bothering mi.
 
 Also, in Ungglish you cannot use "that" as an adverb as in "I can't believe it's that big." Use "so" in that case. "that" still serves as both a pronoun ("I like that") and as a determiner ("I like that idea")
 
@@ -174,3 +174,5 @@ Special cases:
 
 - Name-for: "she was named for her aunt." The word "for" seems bound specifically to "named" because we don't say "She is called for her aunt" or "Her name is Joyce for her aunt". It is more general to say "after her aunt", but this leads to another conflict because "she was named after her aunt" is ambiguous (she may have a different name than her aunt. Think about it.) "She is named the same as her aunt" solves the problem except that the causal relation is lost; "she was given the name of her aunt" solves the problem except that the whole sentence had to be rewritten, and I always avoid requiring such large changes. So as a whole the issue is unsolved.
 - Take-for/mistake-for: "Don't take me for a fool." Similar situation as name-for.
+
+**Edit**: The word "sa" (is/am/are) was changed back to "bi".
