@@ -6,7 +6,8 @@
 .ms:lang(ms), .ru:lang(ru), .fr:lang(fr), .pt:lang(pt), .bn:lang(bn), 
 .de:lang(de), .ha:lang(ha), .pa:lang(pa), .ja:lang(ja), .fa:lang(fa),
 .it:lang(it), .tl:lang(tl), .eo:lang(eo), .ia:lang(ia), .un:lang(un) {
-    font-size: 1em;
+    /* I'd like to highlight the flag image but don't know how. */
+    font-weight: bold;
 }
 /* Replace language codes with icons */
 .en::before {content:url(/res/flag/icon-en.png); margin:0; padding:0;} .en {font-size:0;}

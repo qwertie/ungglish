@@ -1,13 +1,29 @@
 main, article, .content {
-    padding: .5em .2em .5em .5em; /*TRBL*/
+	padding: .5em .2em .5em .5em; /*TRBL*/
+	max-width: 800px;
+	margin: 0 auto; /* centered */
+}
+td, th {
+	padding-right: .3em; /* default 2.4! */
+}
+td {
+	font-size: 90%;
 }
 
 nav {
-    height: auto;
+	height: auto;
 }
 nav .logo {
-    height: auto;
+	height: auto;
 }
 nav {
-  position: absolute;
+	position: absolute;
 }
+
+/* Give navbar light-on-dark color scheme */
+nav { background-color: #456; }
+nav { text-decoration: none; }
+nav a:link    { color:white; }
+nav a:visited { color:whitesmoke; }
+nav a:hover   { color:skyblue; text-decoration: underline; }
+nav a:active  { color:dodgerblue; text-decoration: underline; }

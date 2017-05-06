@@ -9,9 +9,9 @@ menuorder: 0
 Hero
 ----
 
-Learning English in a classroom can take many years, but a student can be fluent in Ungglish in less than a year.
+Learning English in a classroom can take many years, but a student will be able to become fluent in Ungglish in less than a year.
 
-Ungglish is like English, but it's not English. It's dramatically easier to learn, so students of English can make progress faster and have more fun.
+Ungglish will be like English, but an independent, planned language. It will be dramatically easier to learn, so students of English can make progress faster and have more fun. Help is wanted to finish the design and write dictionaries.
 
 - About 8 times easier than English
 - Similar: When used in a certain way, native English speakers can understand spoken and written Ungglish. The dictionary and Ungglish lessons will tell you which parts of Ungglish match (or are similar to) English.
@@ -21,7 +21,7 @@ Ungglish is like English, but it's not English. It's dramatically easier to lear
 - Consistent & Predictable: Unlike in English, most patterns of word formation and grammar are universal in Ungglish. Affixes are productive: you can use them to create new words.
 - One meaning for one word: Many English words have several meanings. Not in Ungglish: "treat" means "handle", not "give food or other amenities as a gift". "prezent" means "existing here and now", not "gift". Only "gift" means "gift".
 - One word for one meaning: "take out" means "kill"? "put up with" means "tolerate"? Not in Ungglish, where each word can be understood independently of the others.
-- Avoids idioms: English has thousands of idioms; Ungglish discourages them. Phrases like "hot potato", "at the drop of a hat", "piece of cake" and "keep something at bay" are meaningless in Ungglish. Only phrases with an obvious meaning, such as "a blessing in disguise" or "to make a long story short" can be directly translated.
+- Avoids idioms: English has thousands of idioms; Ungglish discourages them. Phrases like "hot potato", "at the drop of a hat", "piece of cake", "keep something at bay" are meaningless in Ungglish. Only phrases with an obvious meaning, such as "a blessing in disguise" or "to make a long story short" can be directly translated.
 - More obvious structure: It is easier to pick apart Ungglish sentences and understand their grammar. Endings like -ing have fewer grammatical functions.
 - Flexible & expressive: There are many ways to express a thought in Ungglish - including some ways that English won't allow.
 - Slightly simpler sounds: Ungglish eliminates one consonant and two vowels from English.
@@ -160,7 +160,7 @@ For native speakers this change is easy, but if your native language has a word 
 
 ### Freedom ###
 
-A fun thing about Ungglish is that people can create new words (like "loe-chans-ly"), as long as the new word makes sense logically. Native English speakers sometimes say things like "I like the multi-colored-ness of that balloon-ish thingie"; Ungglish just takes this freedom further. For example, it is perfectly normal to say something like "In the cookroom, the teecher shoeda hiz lernists how to caekdishena the foodparts." (In the kitchen, the teacher showed his students how to cake-ify the ingredients.)
+A fun thing about Ungglish is that people can create new words (like "loe-chans-ly"), as long as the new word makes sense logically. Native English speakers sometimes say things like "I like the multi-colored-ness of that balloon-ish thingie"; Ungglish just takes this freedom further. For example, it is perfectly normal to say something like "In the cookroom, the teecher shoeda hiz lernists how to caekdishifiea the foodparts." (In the kitchen, the teacher showed his students how to cake-ify the ingredients.)
 
 ### Minimal word senses ###
 
@@ -180,7 +180,7 @@ In Ungglish, these meanings are expressed in several separate ways:
 
 1. **-er**: a person who does the attached verb (a "dishwosher" is human)
 2. **-or**: a machine or mechanism that does the attached verb (a "dishwoshor" is a machine)
-3. **-tool**: a manual or passive tool that does the attached verb (a "reflect-tool" is a mirror or reflector; a "cut-tool" is a knife or scissors)
+3. **-ool**: a manual or passive tool that does the attached verb (a "reflectool" is a mirror or reflector; a "cutool" is a knife or scissors.)
 4. **-ur**: something that does the attached verb but cannot be described by one of the above suffixes (`-er` and `-ur` sounds the same in Ungglish, but the distinction provides extra clarity in written text.).
 5. **-eer**: a person associated with the attached noun or adjective root, especially if it forms part of their identity rather than being a temporary state: enjineer, prizuneer, comuneer, phi.losopheer, foodeer (foodie), gaemeer (gamer).
 6. **-mor**: to a greater degree (hotmor, fatmor, greenmor, hardmor).
@@ -235,13 +235,4 @@ Ungglish word roots are divided into three categories:
 Ungglish courses should teach the minimal roots first, then use an immersion teaching style to help the student reach fluency with the basic roots, then teach the extended roots, before finally moving on to teach English.
 
 **Note:** a small number of words, such as "bad", are classified as basic words even though they have a synonym (bad <=> des-good), because they are short and used often, or because the synonym is well-known internationally. **Note:** do you speak Interlingua? You could help pick extended roots based on their presence in Interlingua.
-
-### ... ###
-
-
-
-Ungglish es un idioma de aprender e idioma auxiliar internacional que estoy deseñando basado en inglés. Aprender Ungglish te puede ayudar a la gente aprender inglés
-
-Ungliŝo estas internacia lingvo kiun mi kreas basita sur la angla.
-
 
