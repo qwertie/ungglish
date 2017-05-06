@@ -1,6 +1,7 @@
 ---
 title: "Picking words for Ungglish"
 layout: post
+lang: en
 toc: true
 ---
 
@@ -159,7 +160,7 @@ Por: ("por" has many more meanings in Spanish, such as "by" and "through", but t
 
 - as a consequence of doing: "He went to jail for theft. She won money for solving the problem."
 - in exchange with: "You can get a ticket for five cents, and you can get a pencil for ten tickets."
-- proportionally with: "Pound for pound, he's the best fighter among them. He saves two people for every one he kills."
+- proportionally with: "He wants a nickel for every time he hears that phrase."
 - Instead of; on behalf of: "The king speaks for all of us." Usually "fer" can be used in the same situation, since doing something on behalf of someone is usually also acting in service to them.
 
 Deleted meanings:

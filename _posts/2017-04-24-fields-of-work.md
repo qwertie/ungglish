@@ -1,6 +1,7 @@
 ---
 title: "Fields of work and science, and their practitioners"
 layout: post
+lang: en
 ---
 
 Let's review the patterns in English fields of science and work:
@@ -43,7 +44,8 @@ Let's review the patterns in English fields of science and work:
 | science     | scientific    | scientifically  | scientist    |
 | dentistry   | dental        | dentally        | dentist      |
 | plumbing    | plumbing      | N/A             | plumber      |
-| logic       | logical       | logically       | logician     || history     | historic/historical | historically | historian |
+| logic       | logical       | logically       | logician     |
+| history     | historic/historical | historically | historian |
 | chemistry   | chemical      | chemically      | chemist       |
 | medicine    | medical       | medically       | medic / doctor |
 | botany      | botanical     | botanically     | botanist      |
@@ -132,7 +134,7 @@ So the words in Ungglish are currently planned as follows:
 | mechanics     | me.ckanics (the applied practice of mechanisms) | me.ckanic | me.ckanicly | me.ckanicist (professional in meckanics) | me.ckanim (machanism) |
 | economics     | economics     | economic      | economically    | economicist               | economim / e.conumy (economy) |
 | law           | lawics        | lawic         | lawicly         | lawicist (lawyer)         | law   |
-| engineering   | en.jinics     | en.jinic      | en.jinicly (engineering-wise) | en.jinicist (Note: "enjineer" should be someone that works specifically with engines) | N/A  |
+| engineering   | enjinics     | enjinic      | enjinicly (engineering-wise) | enjinicist (Note: "enjineer" should be someone that works specifically with engines) | N/A  |
 | dentistry     | toothhics     | toothhic      | toothhicly      | toothhicist (dentist)     | tooth |
 | plumbing      | piepics       | piepic        | piepicly        | piepicist (plumber)       | piep |
 | logic         | lojics        | lojic         | lojicly         | lojicist (logician)       | lojim (logic) |

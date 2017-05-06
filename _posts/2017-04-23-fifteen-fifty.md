@@ -1,6 +1,7 @@
 ---
 title: "The fifteen-fifty problem"
 layout: post
+lang: en
 ---
 
 English has an irritating problem: fifty and fifteen sound almost the same, as do other pairs like sixteen and sixty. In a noisy room or via radio, miscommunication is easy, and when the listener asks the speaker to repeat themself, the second utterance is usually no more clear than the first.

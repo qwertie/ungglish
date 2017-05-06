@@ -1,6 +1,7 @@
 ---
 title: "Thoughts about compounding"
 layout: post
+lang: en
 ---
 
 In Ungglish, all parts of a compound word must help give meaning to the word, and must do so in a reasonable way. The English word "sunset", for example, is not acceptable because the word "set" does not normally mean "to go down" except when we're talking about the sun. Ungglish almost never makes special exceptions like that, so we use "sundown" in Ungglish instead.
