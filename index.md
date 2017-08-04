@@ -6,9 +6,6 @@ lang: en
 menuorder: 0
 ---
 
-Hero
-----
-
 Learning English in a classroom can take many years, but a student will be able to become fluent in Ungglish in less than a year.
 
 Ungglish will be like English, but an independent, planned language. It will be dramatically easier to learn, so students of English can make progress faster and have more fun. Help is wanted to finish the design and write dictionaries.

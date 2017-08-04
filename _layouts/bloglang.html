@@ -6,7 +6,8 @@ layout: "section" # this layout is based on section.html
 
 <!-- Assuming pagination cannot be used with language filtering -->
 <div class="posts">
-  {% for post in site.posts | where:"lang",page.lang %}
+  {% assign site_posts = site.posts | where:"lang",page.lang %}
+  {% for post in site_posts %}
   <div>
     <h1 class="post-title">
       <a href="{{ post.url }}">

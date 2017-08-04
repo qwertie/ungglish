@@ -2,26 +2,26 @@
 /* LANGUAGE BAR */
 .lang-bar   { text-align: right; }
 /* Highlight the current language */
-.zh:lang(zh), .en:lang(en), .hi:lang(hi), .es:lang(es), .ar:lang(ar), 
-.ms:lang(ms), .ru:lang(ru), .fr:lang(fr), .pt:lang(pt), .bn:lang(bn), 
-.de:lang(de), .ha:lang(ha), .pa:lang(pa), .ja:lang(ja), .fa:lang(fa),
-.it:lang(it), .tl:lang(tl), .eo:lang(eo), .ia:lang(ia), .un:lang(un) {
-    /* I'd like to highlight the flag image but don't know how. */
-    font-weight: bold;
+.zh:lang(zh)::before, .en:lang(en)::before, .hi:lang(hi)::before, .es:lang(es)::before, .ar:lang(ar)::before, 
+.ms:lang(ms)::before, .ru:lang(ru)::before, .fr:lang(fr)::before, .pt:lang(pt)::before, .bn:lang(bn)::before, 
+.de:lang(de)::before, .ha:lang(ha)::before, .pa:lang(pa)::before, .ja:lang(ja)::before, .fa:lang(fa)::before,
+.it:lang(it)::before, .tl:lang(tl)::before, .eo:lang(eo)::before, .ia:lang(ia)::before, .un:lang(un)::before {
+    /* Highlight the flag image */
+    padding: 2px;
+    background: rgba(200,200,100,0.8);
 }
 /* Replace language codes with icons */
-.en::before {content:url(/res/flag/icon-en.png); margin:0; padding:0;} .en {font-size:0;}
-.es::before {content:url(/res/flag/icon-es.png); margin:0; padding:0;} .es {font-size:0;}
-.un::before {content:url(/res/flag/icon-un.png); margin:0; padding:0;} .un {font-size:0;}
-.eo::before {content:url(/res/flag/icon-eo.png); margin:0; padding:0;} .eo {font-size:0;}
-
+.en::before {content:url(../flag/flag_en.png); display:inline-block; } .en {font-size:0; padding: 2px;}
+.es::before {content:url(../flag/flag_spanish.gif); display:inline-block; } .es {font-size:0; padding: 2px;}
+.un::before {content:url(../flag/flag_un.png); display:inline-block; } .un {font-size:0; padding: 2px;}
+.eo::before {content:url(../flag/flag_eo.gif); display:inline-block; } .eo {font-size:0; padding: 2px;}
 
 .tagline {
   font-size: 1.3rem;
   font-style: italic;
   font-family: serif;
   color: #888;
-  /* I wanted the tagline and date to be shown on the same line but this */
+  /* I wanted the tagline and date to be shown on the same line but run-in */
   /* display: run-in; /* only works in IE so I'll nest tagline in post-date */
 }
 
@@ -29,25 +29,8 @@
 aside, .sidebox {
   border: 1px dotted rgb(127, 127, 127);
   padding: 4px 3px 4px 6px; /* top right bottom left */
-  min-width: 100px ! important;
-  float: right ! important;
-  clear: right;
-  font-size: 90%;
-  margin-top: 1px;
-  margin-bottom: 1px;
-  margin-left: 6px;
-  visibility: visible;
-  max-width: 50%;
-  width: 35%;
-}
-aside, .sidebox ul { padding:0em 0em 0em 1.3em; margin:0em; } /* compact, used for TOC */
-
-/* A note on the right side */
-aside, .sidebox {
-  border: 1px dotted rgb(127, 127, 127);
-  padding: 4px 3px 4px 6px; // top right bottom left
-  min-width: 100px ! important;
-  float: right ! important;
+  min-width: 100px;
+  float: right;
   clear: right;
   font-size: 90%;
   margin-top: 1px;

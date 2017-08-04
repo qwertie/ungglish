@@ -27,14 +27,20 @@ github:
 
 # Translations of header/footer elements
 t:
+  All:
+    homeurl: "/"
+    tagline: "The Eezi Inglish"
+    issueslink: "Questions? Ideas?"
   en:
     homeurl: "/"
     tagline: "The Eezi Inglish"
     issueslink: "Questions? Ideas?"
+    blognote: "Note: Elements of Ungglish described in blog posts may change after publication"
   es:
     homeurl: "/home-es"
     tagline: "El Inglés Fácil"
     issueslink: "Pregunas? Ideas?"
+    blognote: "Nota: Elementos de Ungglish describido en entradas de blog pueden cambiar después de publicación."
   zh:
     homeurl: "/home-zh"
     tagline: "比英语更容易"
@@ -51,7 +57,9 @@ t:
     homeurl: "/home-eo"
     tagline: "La angla pli facila"
     issueslink: "Demandoj? Ideoj?"
+    blognote: "Notu: Eroj de Ungliŝo enskribita en afiŝoj de blog povas ŝanĝi post eldono."
   un:
     homeurl: "/home-un"
     tagline: "The Eezi Inglish"
     issueslink: "Askuns's? Ie.dias?"
+    blognote: "Note: Elements uv Ungglish describd in blog posts mey changja after publishij."

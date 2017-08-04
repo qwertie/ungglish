@@ -1,27 +1,39 @@
+/* I really like Picnic but a few defaults are wonky */
+/* First problem: default page margin is zero */
 main, article, .content {
 	padding: .5em .2em .5em .5em; /*TRBL*/
 	max-width: 800px;
 	margin: 0 auto; /* centered */
 }
 td, th {
-	padding-right: .3em; /* default 2.4! */
+	padding-right: .3em; /* default is 2.4! crazy! */
 }
 td {
-	font-size: 90%;
+	font-size: 90%; /* Help larger tables fit on screen */
 }
-
+/* Enable variable height and disable position: fixed */
 nav {
 	height: auto;
+	position: relative;
+	padding: 0.3em;
 }
 nav .logo {
 	height: auto;
 }
-nav {
-	position: absolute;
+/* Default translateY(50%) screws up menu appearance */
+nav .menu {
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+}
+/* Ensure navbar is big enough for its floats (e.g. the menu) */
+nav:after {
+	content: '';
+	display: block;
+	clear: both;
 }
 
 /* Give navbar light-on-dark color scheme */
-nav { background-color: #456; }
+nav { background: #456; }
 nav { text-decoration: none; }
 nav a:link    { color:white; }
 nav a:visited { color:whitesmoke; }

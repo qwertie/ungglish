@@ -1,7 +1,7 @@
 <!--Note: sidebars inside posts (e.g. tables of contents) are defined in res/css/custom.css-->
 <nav>
   <div class="website-menu" style="float: left;">
-    <a href="{{ site.baseurl }}{{ site.t[page.lang].homeurl }}">
+    <a href="{{ site.baseurl }}/{{ site.t[page.lang].homeurl }}">
       <div class="site-name logo">{{ site.title }}</div>
       <div class="site-tagline">{{ site.t[page.lang].tagline }}</div>
     </a>
@@ -12,7 +12,7 @@
   <div class="lang-bar">
     {% assign langversions = site.pages | where:"lref",page.lref | sort:"lang" %}
     {% for version in langversions %}
-      <a href="{{ version.url }}" class="{{ version.lang }}">{{ version.lang }}</a>
+      <a href="{{ version.url }}" class="{{ version.lang }}">{{ version.lang | upcase }}</a>
     {% endfor %}
   </div>
   <div class="menu">
@@ -29,7 +29,7 @@
     {% endfor %}
 
     <a href="https://github.com/qwertie/ungglish/issues">{{ site.t[page.lang].issueslink }}</a>
-    <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub Repo</a>-->
+    <!--<a href="{{ site.github.repo }}">GitHub Repo</a>-->
     <a href="https://github.com/qwertie/ungglish/blob/master/dictionary.les3">Dictionary [raw]</a>
     <a href="{{ site.baseurl }}/blog">Blog</a>
   </div>
