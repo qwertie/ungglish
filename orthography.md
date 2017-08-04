@@ -1,19 +1,32 @@
 ---
 layout: section
 title: Ungglish Writing System
+lang: en
+lref: Orthography
 ---
 
-Ungglish is one-directionally phonetic: the pronunciation of every word 
+Ungglish has a phonetic writing system but still _looks_ and _sounds_ 
+a lot like English. Generally, pronounciation is preserved better than
+spelling. It is not easy to balance pronunciation and spelling, mainly 
+because English represents at least 14 vowel _sounds_ with only 5 vowel 
+_letters_. To make this easier, I eliminated two "basic" English vowels 
+from Ungglish, leaving 7 basic vowels and 5 diphthongs.
+
+Ungglish is phonetic in one direction: the pronunciation of every word 
 is determined by spelling and is easy to predict if you know all of
 the rules, although some sounds have more than one spelling, and some 
 letters can make (or participate in) more than one sound.
 
+Ungglish spelling rules cause a few words to become longer (e.g. "oepen" instead of 
+"open") and I felt it would be best, on balance, to eliminate double 
+letters except in special cases, so that Ungglish writing need not be
+longer than English writing.
+
 Generally, English speakers can simply "sound out" the words, except that
-double consonants are avoided in Ungglish and generally do not affect 
-pronunciation. For example, "killer" is spelled "kiler" in Ungglish. Ungglish 
-spelling rules cause a few words to become longer (e.g. "moest" instead of 
-"most") and I felt it would be best, on balance, to eliminate double 
-letters since they are not needed except in special cases.
+double consonants are avoided. For example, "killer" is spelled "kiler" 
+in Ungglish. So when you see a single letter that _might_ have originally 
+been a double letter in English, try assuming that it was, e.g. 
+ofis = office and comun = common.
 
 There are several sequences of letters with a special pronounciation rule, 
 e.g. OE is a single vowel pronounced as in TOE.
@@ -104,12 +117,12 @@ Special pronunciation rules:
 
 At end of word (or before a dash):
 - A_ (at the end of a word, or before a dash) is pronounced as U
-- E_ is not allowed, except THE_
+- E_ is not allowed, except in the word "the"
 - I_ is pronounced as I
 - O_ is pronounced as OE
 - U_ is pronounced as UU
 - TH_ is pronounced as unvoiced TH.,
-- THE_ is pronounced as voiced TH (except the word "the" which is pronounced as "tha")
+- THE_ is pronounced as voiced TH (except the word "the" which is pronounced as "tha", and the suffix -ture mentioned below)
 Vowels before r:
 - OR = OER
 - AR = O.R (i.e. O as in "not")
@@ -118,7 +131,7 @@ Vowels before r:
 Other:
 - AI = IE
 - QU means KW, so QUE in "queschun" is pronounced KWE, not KYOO.
-- TION and SION is pronounced SHUN
+- TION and SION are pronounced SHUN
 - TURE is pronounced CHUR
 - OLOGY is pronounced OLUJY, with stress on the O
 - OLOGIC is pronounced OLOJIC, with stress on the second O

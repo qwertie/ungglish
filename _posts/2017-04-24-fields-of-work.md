@@ -146,7 +146,7 @@ So the words in Ungglish are currently planned as follows:
 | practice      | practics      | practic       | practicly       | practicist (practitioner) | practim (a practice, i.e. something somebody does) |
 | reporting     | re.portics    | re.portic     | re.porticly     | re.porticist (reporter)   | re.port |
 | journalism    | jurnulics     | jurnulic      | jurnulicly      | jurnulicist / jurnulist   | jurnul |
-| philosophy    | phi.los'phics | phi.los'phic  | phi.los'phicly  | phi.los'phicist / phi.los'pheer | phi.los'phim (a philosophy) |
+| philosophy    | phil'.sophics | phil'.sophic  | phil'.sophicly  | phil'.sophicist / phil'sopheer | phil'.sophim (a philosophy) |
 | architecture  | arkitectics   | arkitectic    | arkitecticly    | architecticist (architect) | architectim (a work of architecture) |
 | astonomy      | astru.nomics  | astru.nomic   | astru.nomicly   | astru.nomicist (astronomer) | astru.nomim (celestial object) |
 | agriculture   | agrics        | agric         | agricly         | agricist / farmeer        | N/A |
