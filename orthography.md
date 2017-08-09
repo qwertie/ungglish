@@ -8,9 +8,10 @@ lref: Orthography
 Ungglish has a phonetic writing system but still _looks_ and _sounds_ 
 a lot like English. Generally, pronounciation is preserved better than
 spelling. It is not easy to balance pronunciation and spelling, mainly 
-because English represents at least 14 vowel _sounds_ with only 5 vowel 
-_letters_. To make this easier, I eliminated two "basic" English vowels 
-from Ungglish, leaving 7 basic vowels and 5 diphthongs.
+because English represents at least 14 vowel _sounds_ (more than that 
+in some dialects), with only 5 vowel _letters_. To make this easier, 
+I eliminated two "basic" English vowels from Ungglish, leaving 7 basic 
+vowels and 5 diphthongs.
 
 Ungglish is phonetic in one direction: the pronunciation of every word 
 is determined by spelling and is easy to predict if you know all of
