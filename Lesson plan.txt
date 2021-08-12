@@ -2,18 +2,21 @@ Course outline
 --------------
 
 A picture-based course like Rosetta stone that can be taught to anyone regardless of mother toungue.
+- Most words should be taught TWICE in consecutive lessons
 
 ### Lesson 1: ###
 
 - New sounds: u, a, o, i, voiced th, syllabic r, b, d, h, k, l, m, n, p, s, t, v
 - Words: the, pursun, bi, man, kid, hikid, shikid, and, hava, not, bol
-- Showa eech uv pursun, man, boy, coeman, coeboy, bol
+- Shoea eech uv pursun, man, boy, coeman, coeboy, bol
 - ex-ampuls: pursun / not pursun
+- Choose matching word and choose matching picture exercises
 - Fill in the blank / writing exercises
 ~~~
 The pursun bi man.
 The pursun bi kid. (boy)
 The kid bi hikid.
+The pursun bi kid. (girl)
 The kid bi shikid.
 The kid bi not hikid.
 The kid bi not shikid.
@@ -35,27 +38,45 @@ The persun bi not man and not kid.
 
 ### Lesson 2: ###
 
-- Words: coe- [TODO: change to op], doen, famli, wotur, big, runa
+- Words: coe- [TODO: change to woo], doen, famli, wotur, big, runa
 - Introduce plurals: pursuns, boys, coeboys, mans, bols
 ~~~
-The pursun bi coeman.
-The pursun bi coeboy.
-The kid bi not coeboy.
+The pursun bi wooman.
+The pursun bi shikid.
+The wooman hava shikid.
+The kid bi not shikid.
+The kid doen be shikid.
+The kid bi not man.
 The kid doen bi man.
-The boy hava bol.
-The coeboy hava bol.
-The boy doen hava bol.
-The boys hava bols.
+The bol bi not kid.
+The bol doen bi kid.
+The kid hava bol.
+The kid doen hava bol.
+The kid hava pen.
+The pursun hava kid and hava bol.
+The pursun bi man and hava bol.
+The pursun doen hava shikid.
+The shikid hava bol.
+The hikid doen hava bol.
+
+Plural:
+The pursuns be mans.
+The pursuns be kids.
+The pursuns hava bols.
+The kids be hikids.
+The kids be not shikids.
+
+The kids hava bols.
 The boy hava big bol.
-The coeboy hava bol.
-The coeboy doen hava big bol.
+The wooboy hava bol.
+The wooboy doen hava big bol.
 The pursun runa.
 The pursun doen runa.
 The boy runa.
 The boy doen runa.
 The boy runa and hava bol.
 The boy hava wotur.
-The coeboy hava wotur.
+The wooboy hava wotur.
 The boy hava wotur, and the coeboy doen hava wotur.
 The boy hava wotur and bol.
 The famli hava boy and coeboy and man and coeman.

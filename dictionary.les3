@@ -232,7 +232,7 @@ Top5000 = {
 	@adv  back        = back	// adv	
 	@det  eny         = any		// det	
 	@adj  good        = good	// adj	
-	@n   (`shi-dult`, @ext woomun) = woman	// n	
+	@n    `woo-man`   = woman	// n	
 	@prep @adv `thhru` = through	// prep
 	@pr   us          = us		// pr	
 	@n    lief        = life	// n	
@@ -331,7 +331,7 @@ Top5000 = {
 	@191 @n    system      = system	// n	
 	@192 @det  eech        = each	// det	
 	@193 @adv  riet        = right	// adv	???
-	@engerror @n riet      => opleft
+	@engerror @n riet      => wooleft
 	@engerror (@adj, @adv) riet => ex.actly
 	@194 @n    proegram    = program	// n	
 	@engerror  proegram    => `plan-doc` // n	
@@ -391,7 +391,7 @@ Top5000 = {
 	@238 @adj  (`des-saem`, @ext difrent) = different // adj	
 	@239 @pr  `'lot`       = "a lot"	// n
 	@240 @n    riet        = right	// n	- as in "right to liberty", not "right side" or "correct"
-	@240 @engerror @n riet => (`op-left`, corect, `des-rong`)
+	@240 @engerror @n riet => (`woo-left`, corect, `des-rong`)
 	@241 @n    study       = study	// n	- could replace "analysis", "investigation"
 	@242 @n   (book, `paej-set`) = book 	// n	
 	@243 @n    `see-ster`  = eye  	// n	
@@ -402,7 +402,7 @@ Top5000 = {
 	@248 @n    isue        = issue	// n	
 	@248 @error (ishue, ishuu) => isue	// n	
 	@249 @n    sied        = side 	// n	
-	     @n   `op-sied`    = ("corresponding side", "opposite side")	// n	
+	     @n   `woo-sied`    = ("corresponding side", "opposite side")	// n	
 	@250 @n    tiep        = kind 	// n	
 	@251 @nm   for         = four 	// nm	
 	@251 @error @prep for  => fer
@@ -764,7 +764,7 @@ Top5000 = {
 	@552 @n    industry    = industry	// n
 	@553 @n    figyer      = figure	// n
 	@554 @n    faes        = face	// v
-	@555 @n    street      = street	// n
+	@555 @n    (roed, @ext street) = street	// n
 	@556 @n    imigj       = image	// n
 	@557 @p @pd it.self    = itself	// pr
 	@558 @n    phoen       = phone	// n
@@ -1090,6 +1090,7 @@ Top5000 = {
 	@858 @n     en.vierment  = environment	// n	47807
 	@engerror   en.vierunment => en.vierment // n	47807
 	@823 @n     glas = glass	// n	49686
+	@engerror   glas => cup
 	@824 @v    `op-ask-ens`  = answer	// v	47661
 	@825 @n     skil = skill	// n	50431
 	@826 @n    `shi-siblin` = sister	// n	48183
@@ -1258,7 +1259,7 @@ Top5000 = {
 	@engerror  uenit          => (m'sheen, ietem)
 	@970 @adv `good-moes`     = best	// adv	39959
 	@971 @n    stiel          = style	// n	40889
-	@972 @n    (dult, @ext `'dult`) = adult	// n	40705
+	@972 @n    adult          = adult	// n	40705
 	@973 @v    wurya          = (worry, fret)	// v	40210
 	@974 @n   (`erria-fi`, @ext raenj) = range	// n	41326 (region between upper and lower limits on a scale; a variety of related things)
 	@974 @n   `reech-dist`    = range	// n (the distance that an object is capable of going, on )
@@ -4763,7 +4764,7 @@ Top5000 = {
 	@4402 @_   _ = shed	// v	5769
 	@4403 @_   _ = liquid	// n	5948
 	@4404 @_   _ = icon	// n	6030
-	@4405 @_   _ = elephant	// n	6038
+	@4405 @_   `elephunt-am` = elephant	// n	6038
 	@4406 @_   _ = consequently	// adv	6463
 	@4407 @_   _ = legislature	// n	6027
 	@4408 @_   _ = associate	// n	5860
@@ -5445,6 +5446,8 @@ Top5000 = {
 	@n   (`soon-shi-spous`, @ext `soon-wief`) = "bride-to-be"
 	@adj  `floe-tok-iv` = fluent
 	@adv  `floe-tok-iv-ly` = fluently
+	@n    `cat-let` = kitten
+	@n    `dog-let` = puppy
 }
 
 Affixes = {
@@ -5493,6 +5496,7 @@ Affixes = {
 	@suffix ap = "app (computer program)": "Ie hava nies drawap thut ie ueza tu maeka ol mie drawments."
 	@suffix eez = "language derived from a country name": "Ie aebla tokina Spaineez, Franseez an Ruseez, but mie Hindeez be bitly de.keyd."
 	@suffix leng = "language": "Do yoo noela the C-plus-plus or Javun comlengs?"
+	@suffix let = "child of an animal": "That liunlet wuz so cuet!"
 
 	// Other word group affixes
 	// Note: one can always use a noun as a suffix informally, e.g. jacketcoat, berrdol, biettoy
@@ -5507,8 +5511,8 @@ Affixes = {
 	@prefix des = "opposite of": "Shiz herr is deslong."
 	@prefix mis = "incorrectly": ""
 	@prefix dis = "in many directions": "The p'lis disshootda teer-gas tu maekdisgoea the crowd."
-	@prefix op = "counterpart; subject of; or that which is on the opposite side of": "The oplock oepena the lock on the opleft."
-	@prefix coe = "co-, together with": "Mie cowurker bi coeliefer uv mi too."
+	@prefix op = "counterpart; subject of": "The oplock oepena the lock on the opleft."
+	@prefix coe = "co-, together with": "Mie coewurker bi coeliefer uv mi too."
 	@prefix non[n, adj] = "non-": "Ie lieka nonhuemam anims."
 	@suffix eng = "Marks a predefined alternate sense of an English word root, when the alternate sense seems unrelated to the main sense": "Ol rocks bi hardeng."
 	@suffix u = "Having a related, specialized meaning, often one used in a particular field": ""
@@ -5525,7 +5529,7 @@ Affixes = {
 	@prefix poe = "potential": "The twen poeprezidents argueeyda."
 	@suffix ig = "ignomenious; indicates that someone dislikes a thing or action": "Ie doen liek the wey thut he smeliga, and spreda ie.diaigs"
 	@suffix ey = "good or high-class": "It bi taesteyus, yoo il lieka it."
-	@suffix @special un = "Replaces the -a ending in a noun or adjective imported from another language, in order to avoid marking it as a verb.": "The datun bi verry cleerfi."
+	@special @suffix un = "Replaces the -a ending in a noun or adjective imported from another language, in order to avoid marking it as a verb.": "The datun bi verry cleerfi."
 	@suffix lus = "Without": "Cola now an geta costlus berrtoy!"
 	@prefix mid = "In the middle": "It bi mid-dey in Chinia justnow."
 	@prefix fren = "in a friendly way, as a friend": "???." // tiniwet = damp
@@ -5557,8 +5561,8 @@ Affixes = {
 	@suffix ens[v => n] = "-ance: the immediate product of doing a process denoted by the verb; occasionally denotes the action itself as a synonym for -ij.": "The Wuniezd Staetuns spenda six hundred billiun dolers per yeer on defendens."
 	@suffix mint[v => n] = "-mint: an organization that does an action": "Ie uezta wurka fer the guvernmint."
 	@suffix erry[n => n, root => n] = "-ary: an assemblage of something (may have a specialized meaning, like Esperanto's -ar suffix)": "Ie lookinda wurderry fer the wurd \"militerry\"."
-	@suffix set[v => n] = "-set: an group of something": "Ie uezta wurka fer the guvermint."
-	@suffix groop[v => n] = "-groop: an organized group": "Ie uezta wurka fer the guvermint."
+	@suffix set[v => n] = "-set: an group of something": ""
+	@suffix groop[v => n] = "-groop: an organized group": ""
 	// Potential ambiguity when adding -ism and -ist, as it is unclear if the root is verbal or nounal
 	@suffix izm[n => n, adj => n, v => n] = "-ism: Philosophy, idea, religion, or practice (but not a field of work or study)"
 	@suffix ist[root => n, n => n, adj => n, v => n] = "-ist: One who adheres to an -sim or skillfully does an action (or noun, if it is not a verb root)."

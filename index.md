@@ -89,7 +89,7 @@ Usually, the most common synonym is kept and the less common ones are removed, b
 
 Many common English words have an irregular past tense and/or past participle, e.g. think => thought, find => found, get => got => gotten, eat => ate => eaten, sing => sang => sung, foot => feet, child => children.
 
-Almost all irregularities are gone in Ungglish. The only irregular verb is the one for "to be".
+Almost all irregularities are gone in Ungglish. The only irregular verb is the one for "to be" (with three conjugations: bi, iz, wuza).
 
 ### Consistency and predictability ###
 
@@ -157,7 +157,7 @@ For native speakers this change is easy, but if your native language has a word 
 
 ### Freedom ###
 
-A fun thing about Ungglish is that people can create new words (like "loe-chans-ly"), as long as the new word makes sense logically. Native English speakers sometimes say things like "I like the multi-colored-ness of that balloon-ish thingie"; Ungglish just takes this freedom further. For example, it is perfectly normal to say something like "In the cookroom, the teecher shoeda hiz lernists how to caekdishifiea the foodparts." (In the kitchen, the teacher showed his students how to cake-ify the ingredients.)
+A fun thing about Ungglish is that people can create new words (like "loe-chans-ly"), as long as the new word makes sense logically. Native English speakers sometimes say things like "I like the multi-colored-ness of that balloon-ish thingie"; Ungglish just takes this freedom further. For example, it is perfectly normal to say something like "In the cookroom, the teecher shoeda hiz lernists how to caekdishifiea the foodparts." (In the kitchen, the teacher showed his students how to cake-ify the ingredients, i.e. change them into a cake.)
 
 ### Minimal word senses ###
 
@@ -178,7 +178,7 @@ In Ungglish, these meanings are expressed in several separate ways:
 1. **-er**: a person who does the attached verb (a "dishwosher" is human)
 2. **-or**: a machine or mechanism that does the attached verb (a "dishwoshor" is a machine)
 3. **-ool**: a manual or passive tool that does the attached verb (a "reflectool" is a mirror or reflector; a "cutool" is a knife or scissors.)
-4. **-ur**: something that does the attached verb but cannot be described by one of the above suffixes (`-er` and `-ur` sounds the same in Ungglish, but the distinction provides extra clarity in written text.).
+4. **-ur**: something that does the attached verb but cannot be described by one of the above suffixes (`-er` and `-ur` sounds the same in Ungglish, but the distinction provides extra clarity in written text.). Example: "Politics be 
 5. **-eer**: a person associated with the attached noun or adjective root, especially if it forms part of their identity rather than being a temporary state: enjineer, prizuneer, comuneer, phi.losopheer, foodeer (foodie), gaemeer (gamer).
 6. **-mor**: to a greater degree (hotmor, fatmor, greenmor, hardmor).
 
