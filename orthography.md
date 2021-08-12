@@ -124,11 +124,13 @@ At end of word (or before a dash):
 - U_ is pronounced as UU
 - TH_ is pronounced as unvoiced TH.,
 - THE_ is pronounced as voiced TH (except the word "the" which is pronounced as "tha", and the suffix -ture mentioned below)
+
 Vowels before r:
 - OR = OER
 - AR = O.R (i.e. O as in "not")
 - ER = UR, except ERR which has the more logical pronunciation of E-R as in error
 - IR and UR have the expected pronunciation.
+
 Other:
 - AI = IE
 - QU means KW, so QUE in "queschun" is pronounced KWE, not KYOO.
@@ -136,6 +138,7 @@ Other:
 - TURE is pronounced CHUR
 - OLOGY is pronounced OLUJY, with stress on the O
 - OLOGIC is pronounced OLOJIC, with stress on the second O
+
 Note:
 - The vowel in ANK and ANG can have a range of acceptable pronounciations in English. 
   One of them is like A in cat, which is not the typical pronounciation, but we allow
@@ -144,7 +147,7 @@ Note:
 The overall pronunciation of a word is determined by scanning the word 
 from left-to-right, repeatedly matching the longest known letter 
 combination. For example, the letter sequence UEE is pronounced UE-E 
-(UE as in value, E as in bed). It is incorrect to treat this as U-EE.
+(UE as in value, E as in bed). It is incorrect to treat this as UH-EE.
 
 Word stress
 -----------
@@ -180,7 +183,7 @@ done only for
 - Country and region names, whose spellings are only modified so that the 
   name ends in "ia", so that consonants sound the same, and so that the
   number of vowels (before ia) stays the same. Examples:
-  America => Amerikia, Canada => Canadia, Vietnam => Vi-etnamia
+  America => Amerrikia, Canada => Canadia, Vietnam => Vi-etnamia
 
 Other notes
 -----------
